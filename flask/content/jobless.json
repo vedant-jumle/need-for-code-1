@@ -24,7 +24,7 @@
             "Create and manage key course and resource catalogs"
         ],
         "rec courses": [
-            "https://www.coursera.org/degrees/master-of-computer-science-illinois?irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=degree&irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3nOR7TVkBzQ0&irgwc=1"         ""
+            "https://www.coursera.org/degrees/master-of-computer-science-illinois?irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=degree&irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3nOR7TVkBzQ0&irgwc=1"
         ],
         "starting salary": "₹4.25 Lakhs per annum",
         "job-img":"../images/pa.png"
@@ -50,7 +50,7 @@
 
     },
     "Business Systems Analyst":{
-        "des": "Business systems analysts use both business and technology tools to examine a company’s operating system, procedures, and design improvements.  They aim to help a company operate more efficiently and effectively through the design and implementation of information technology systems. They consult with leaders and managers to understand the usage of emerging technologies that can benefit the company. They write instruction manuals and analyze costs and benefits related to the technology. They have specialization in the system the company uses.",
+        "des": "Business systems analysts use both business and technology tools to examine a companys operating system, procedures, and design improvements.  They aim to help a company operate more efficiently and effectively through the design and implementation of information technology systems. They consult with leaders and managers to understand the usage of emerging technologies that can benefit the company. They write instruction manuals and analyze costs and benefits related to the technology. They have specialization in the system the company uses.",
         "skills": [
             "Determines operational objectives by studying business functions, gathering information, and evaluating output requirements.",
             "Examines current business procedures and recommends new ones.",
@@ -120,128 +120,157 @@
 
     },
     "CRM Business Analyst":{
-        "des": "",
+        "des": "A CRM business analyst specializes in customer relationship management platforms, such as Salesforce. As a CRM business analyst, your job duties include organizing and analyzing marketing and customer data and helping sales and marketing teams deepen their market influence and build long-lasting customer relationships.",
         "skills": [
-            "",
-            ""
+            "They must have strong analytical skills in addition to knowledge of analytical or database software",
+            "particularly CRM or business intelligence systems."
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.udemy.com/course/microsoft-dynamics-365-online-training-introduction-course/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-MzA_Mh0plt4ZM.kFd0rJwg&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads",
+            "https://www.udemy.com/course/zoho-crm-learn-how-to-master-sales-process-workflows/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-SYXcj85U0SeIAWG39IGI2g&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹4.00 Lakhs per annum",
+         "job-img":"https://st4.depositphotos.com/4230659/28663/v/380/depositphotos_286637068-stock-illustration-landing-page-with-isometric-business.jpg?forcejpeg=true../images/ssa.png"
 
     },
     "Technical Support":{
-        "des": "",
+        "des": "Technical or ‘tech’ support is a form of customer communication that product-centric companies use to help their users get the most out of their products.Typically, this is done via knowledge bases, live chat, email or phone – and aims to solve technical problems such as installation issues, login errors and other technical difficulties that can have a negative impact on the user experience.",
         "skills": [
-            "",
-            ""
+            "Technical Skills.",
+            "Communication Skills.",
+            "Patience",
+            "Problem Solving Skills."
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.coursera.org/learn/introduction-to-technical-support?irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3nfTyTVkBzQ0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=b2c",
+            "https://www.coursera.org/professional-certificates/ibm-technical-support"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "3.95 Lakhs per annum",
+         "job-img":"https://www.svgrepo.com/show/88870/technical-support.svg"
 
     },
     "Project Manager":{
-        "des": "",
+        "des": "A project manager is a professional who organizes, plans, and executes projects while working within restraints like budgets and schedules. Project managers are in charge of leading teams, defining goals, communicating with stakeholders, and seeing a project through to its closure. Whether running a marketing campaign, constructing a building, developing a computer system, or launching a new product, the project manager is responsible for the success or failure of the project.",
         "skills": [
-            "",
-            ""
+            " Effective Communication ",
+            " Negotiation",
+            "Leadership ",
+            "Technical Expertise",
+            "Risk Management",
+            "Critical Thinking and Problem Solving"
+
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.skillshare.com/site/join?clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3n8SbTVkBzQ0&irgwc=1&utm_content=4650&utm_term=Class+Central&utm_campaign=259799&affiliateRef=6595003&utm_medium=affiliate-referral&utm_source=IR&t=Project-Management-Certification-Become-a-Project-Manager&sku=2143719728",
+            "https://www.sdxcentral.com/industry/career/skills/top-10-information-security-analyst-skills/"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹14.50 Lakhs per annum",
+         "job-img":"https://www.thebalancecareers.com/thmb/ZYZGgHWn0j3A-55lYF6nwIfbTEE=/1500x1000/filters:fill(auto,1)/essential-project-manager-skills-2062461-final-300a73f3c77545a89641cc2e17a54bb5.png"
 
     },
     "Information Technology Manager":{
-        "des": "",
+        "des": "An IT Manager is a professional who ensures that all employees have the technology they need to get their job done, from a reliable laptop and VPN access for remote workers who can't be reached otherwise, to up-close coordination with other departments like HR or finance so data is secure.",
         "skills": [
-            "",
-            ""
+            "Strategic thinking",
+            "Strong communication skills",
+            "Ability to work well under pressure",
+            "Attention to detail",
+            "Project management skills",
+            "A desire to keep learning",
+            "Management and leadership skills"
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.classcentral.com/course/youtube-soft-nano-technology-47793/classroom"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹8.82 Lakhs per annum",
+         "job-img":"https://previews.123rf.com/images/dizanna/dizanna1810/dizanna181000146/109689613-technology-management-word-cloud-business-concept-background.jpg"
 
     },
     "Programmer Analyst":{
-        "des": "",
+        "des": "As a programmer analyst, you’ll work closely with the IT department, but you'll also work with other departments across the company. It's a position that requires coding experience as well as the ability to test and maintain programs, adjust existing programs and develop new ones, and execute cybersecurity measures to keep the company's information safe. There’s no single path to becoming a computer programmer analyst, although gaining some formal education and experience is a plus. ",
         "skills": [
-            "",
-            ""
+            "Ability to plan and direct complex technical projects.",
+            "Experience with network protocols, computer hardware, and software.",
+            "Excellent knowledge of data backup, recovery, security, integrity, and SQL.",
+            "Strong written and verbal communication skills.",
+            "Great attention to detail."
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.classcentral.com/course/youtube-data-analyst-portfolio-projects-92262/classroom",
+            "https://www.udacity.com/course/data-analyst-nanodegree--nd002?irclickid=TP7WWY0e%3AxyNTuXTYaSGh1y%3AUkD3n73yTVkBzQ0&irgwc=1&utm_source=affiliate&utm_medium=&aff=259799&utm_term=&utm_campaign=_gtcm_direct_&utm_content=&adid=788805"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹4.50 Lakhs per annum",
+         "job-img":"https://cdn0.iconfinder.com/data/icons/data-analytics-43/62/data-science-programmer-analyst-computing-512.png"
 
     },
     "Design & UX":{
-        "des": "",
+        "des": "User experience (UX) design is the process design teams use to create products that provide meaningful and relevant experiences to users. This involves the design of the entire process of acquiring and integrating the product, including aspects of branding, design, usability and function.",
         "skills": [
-            "",
-            ""
+            "Prototyping, wireframing, user flows, mockups",
+            "Visual design and design software",
+            "User research and usability testing",
+            "Agile",
+            "Information architecture ",
+            "Application development"
+
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.udemy.com/course/user-experience-design-the-accelerated-ux-course/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-pqZKUKqZDJK1xhXcEKJU4A&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads",
+            "https://www.skillshare.com/site/join?clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3n90TTVkBzQ0&irgwc=1&utm_content=4650&utm_term=Class+Central&utm_campaign=259799&affiliateRef=6595003&utm_medium=affiliate-referral&utm_source=IR&t=Sound-Design-in-UX-An-Introduction-for-Designers&sku=1981053087"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹5.5 Lakhs per annum",
+         "job-img":"https://cdn1.iconfinder.com/data/icons/digital-marketing-76/64/UX-UI-Design-interface-512.png"
 
     },
     "Solutions Architect":{
-        "des": "",
+        "des": "A good solutions architect looks at the existing environment and analyzes what technologies are available and what software product must be developed to provide the best solution for the problem that needs to be solved. From there, the solutions architect creates an overall strategic technical vision—not unlike an architect designing a blueprint for a building. They develop a budget for producing a software product based on that vision. ",
         "skills": [
-            "",
-            ""
+            "IT architecture, infrastructure and cloud development.",
+            "Engineering and software architecture design.",
+            "DevOps practices.",
+            "Network administration.",
+            "System and data security.",
+            "Business analysis techniques and processes.",
+            "Various operating systems.",
+            "Database management."
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-TMCa2xEnz56T55Dwf777QA&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads",
+            "https://www.udemy.com/course/aws-certified-solutions-architect-associate-hands-on/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-S9AEtBDXUdLbb9usLHwdeg&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹22.5 Lakhs per annum",
+         "job-img":"https://assets-global.website-files.com/5b6df8bb681f89c158b48f6b/5d52aae04793e74385410969_field-solutions-architect.jpg"
 
     },
     "Systems Analyst":{
-        "des": "",
+        "des": "A systems analyst is a person who uses analysis and design techniques to solve business problems using information technology. Systems analysts may serve as change agents who identify the organizational improvements needed, design systems to implement those changes, and train and motivate others to use the systems.",
         "skills": [
-            "",
-            ""
+            "Analytical skills",
+            "Communication skills",
+            "Creativity",
+            "Technical skills"
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.classcentral.com/course/youtube-data-analyst-portfolio-projects-92262/classroom",
+            "https://www.udacity.com/course/data-analyst-nanodegree--nd002?irclickid=TP7WWY0e%3AxyNTuXTYaSGh1y%3AUkD3i21LTVkBzQ0&irgwc=1&utm_source=affiliate&utm_medium=&aff=259799&utm_term=&utm_campaign=_gtcm_direct_&utm_content=&adid=788805"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹8.1 Lakhs per annum",
+         "job-img":"https://www.roberthalf.com/sites/default/files/2017-12/Systems%20Analyst.jpg"
 
     },
     "Network Security Administrator":{
-        "des": "",
+        "des": "What Does Network Security Administrator Mean? A network security administrator is an individual that manages, monitors and administers security over one or more computer networks. A network security administrator primarily ensures that a network is secured from any internal or external security threats and incidents",
         "skills": [
-            "",
-            ""
+            "Knowledge of common protocols such as SSL, HTTP, DNS, SMTP and IPSec.",
+            "A strong understanding of firewall technologies.",
+            "Packet shaper, load balancer and proxy server knowledge.",
+            "Intermediate to expert intrusion detection system/intrusion prevention system knowledge."
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.coursera.org/learn/introduction-cybersecurity-cyber-attacks?irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3izRiTVkBzQ0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=b2c",
+            "https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
+        "starting salary": "₹6.6 Lakhs per annum",
          "job-img":"../images/ssa.png"
 
     },
