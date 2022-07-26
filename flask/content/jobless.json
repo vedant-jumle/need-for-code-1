@@ -493,24 +493,24 @@
 
     },
     "Software Quality Assurance (QA) / Testing":{
-        "des": "",
+        "des": "Software Quality Assurance (SQA) is the practice of monitoring all software engineering processes, activities, and methods used in a project to ensure proper quality of the software and conformance against the defined standards. Software Quality Assurance (QA) Testing evaluates the functional, performance, usability and security of the software or app.",
         "skills": [
-            "Secure network architecture.",
-            "Vulnerability testing.",
-            "Threat modeling.",
-            "Virtualization technologies.",
-            "Cloud security.",
-            "Firewalls.",
-            "Encryption solutions.",
-            "Secure coding practices."
+            "Analytical Thinking.",
+            "Attention to Detail.",
+            "Thinking Outside the Box",
+            "Excellent Analytical and Problem-Solving Skills.",
+            "Willingness to Learn New Technologies.",
+            "Analyze Test Results.",
+            "Break Project into Attainable Progress Goals.",
+            "Identify Areas of Improvement."
             
         ],
         "rec courses": [
-            "https://www.pluralsight.com/courses/microsoft-azure-security-engineer-implement-advanced-network-security?clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3iJUSTVkBzQ0&irgwc=1&mpid=259799&aid=7010a000001xAKZAA2&utm_medium=digital_affiliate&utm_campaign=259799&utm_source=impactradius",
-            "https://www.udemy.com/course/learn-ethical-hacking-from-scratch/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-U5QbRIAu1Q3S_ztpwZ4nZA&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads"
+            "https://www.udemy.com/course/draft/2782950/?LSNPUBID=SAyYsTvLiGQ&ranEAID=SAyYsTvLiGQ&ranMID=39197&ranSiteID=SAyYsTvLiGQ-OuOO_Se1x4RyXS03EMTp5g&utm_medium=udemyads&utm_source=aff-campaign",
+            "https://www.coursera.org/learn/information-systems-audit?irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3iLSjTVkBzQ0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=b2c"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹6.14 Lakhs per annum",
+         "job-img":"https://st2.depositphotos.com/1001599/45198/v/380/depositphotos_451980380-stock-illustration-software-testing-abstract-concept-vector.jpg?forcejpeg=true"
 
     }
 
