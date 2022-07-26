@@ -275,182 +275,239 @@
 
     },
     "Data Architect":{
-        "des": "",
+        "des": "What is a data architect? Data architects are IT professionals who leverage their computer science and design skills to review and analyze the data infrastructure of an organization, plan future databases, and implement solutions to store and manage data for organizations and their users.",
         "skills": [
-            "",
-            ""
+            "Applied mathematics and statistics.",
+            "Data visualization, data migration and data modeling",
+            "Relational database management systems.",
+            "DBMS software, including SQL Server.",
+            "Database and cloud computing design, architectures and data lakes.",
+            "Hadoop technologies like Pig, Hive and MapReduce."
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.udemy.com/course/aws-data-architect-bootcamp-training/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-TsPhSalLaQeh0dpTa5KJIQ&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads",
+            "https://www.udemy.com/course/qliksense-data-architect-masterclass/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-Zy50NooE6dFgaWjqqC8HMg&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹22.8 Lakhs per annum",
+         "job-img":"https://static.thenounproject.com/png/3410012-200.png"
 
     },
     "Software Developer":{
-        "des": "",
+        "des": "Software developers invent the technologies we sometimes take for granted. For instance, that app that rings, sings or buzzes you out of a deep sleep every morning? A software developer helped design that. And when you roll into the office and turn on your computer, clicking and scrolling through social media, music and your personal calendar – software developers had a big hand in shaping those, too.",
         "skills": [
-            "",
-            ""
+            "Mathematical aptitude.",
+            "Problem-solving skills.",
+            "Programming languages (different types of developer role require different languages)",
+            "Excellent organisational and time management skills.",
+            "Accuracy and attention to detail."
         ],
         "rec courses": [
-            "",
-            ""
-        ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+            "https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer",
+            "https://www.linkedin.com/learning/paths/become-a-software-developer?src=aff-lilpar&veh=aff_src.aff-lilpar_c.partners_pkw.259799_plc.Class%20Central_pcrid._learning&trk=aff_src.aff-lilpar_c.partners_pkw.259799_plc.Class%20Central_pcrid._learning&clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3i31CTVkBzQ0&mcid=6851962469594763264&irgwc=1"
+        ],  
+        "starting salary": "₹5.00 Lakhs per annum",
+         "job-img":"https://st2.depositphotos.com/6064568/9404/v/380/depositphotos_94043980-stock-illustration-man-software-engineer-concept-with.jpg?forcejpeg=true"
 
     },
     "E-Commerce Analyst":{
-        "des": "",
+        "des": "E-commerce business analysts investigate, dissect, and interpret online retail performance for websites and e-commerce stores. They are highly skilled data analysts who identify areas for improvement within online sales and marketing. They also assist decision-makers in the development of e-commerce products and online business strategies.",
         "skills": [
-            "",
-            ""
+            "Analytical skills",
+            "Knowledge of trends",
+            "Flexibility of operation",
+            "Starting the initiative",
+            "Highly developed communication"
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.classcentral.com/course/youtube-data-analyst-portfolio-projects-92262/classroom",
+            "https://www.udacity.com/course/data-analyst-nanodegree--nd002?irclickid=TP7WWY0e%3AxyNTuXTYaSGh1y%3AUkD3iQ3STVkBzQ0&irgwc=1&utm_source=affiliate&utm_medium=&aff=259799&utm_term=&utm_campaign=_gtcm_direct_&utm_content=&adid=788805"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "3.65 Lakhs per annum",
+         "job-img":"https://www.bajobs.ca/content/uploads/2017/08/E-commerce-business-analyst.jpg"
 
     },
     "Technical Services/Help Desk/Tech Support":{
-        "des": "",
+        "des": "Technical or ‘tech’ support is a form of customer communication that product-centric companies use to help their users get the most out of their products.Typically, this is done via knowledge bases, live chat, email or phone – and aims to solve technical problems such as installation issues, login errors and other technical difficulties that can have a negative impact on the user experience.",
         "skills": [
-            "",
-            ""
+            "Technical Skills.",
+            "Communication Skills.",
+            "Patience",
+            "Problem Solving Skills."
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.coursera.org/learn/introduction-to-technical-support?irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3nfTyTVkBzQ0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=b2c",
+            "https://www.coursera.org/professional-certificates/ibm-technical-support"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "3.95 Lakhs per annum",
+         "job-img":"https://www.svgrepo.com/show/88870/technical-support.svg"
 
     },
     "Information Technology Auditor":{
-        "des": "",
+        "des": "An information technology auditor is responsible for the internal controls and risks within a company’s technology system. He actively monitors the system to ensure it follows policies and best practices. This usually involves studying the technologies used and identifying points of weaknesses. He then prepares a report on his findings and recommends a suitable course of action. An IT auditor can also help in designing and executing internal audit strategies. He also mentors IT staff members, keeps records and prepares reports for the audit committee.",
         "skills": [
-            "",
-            ""
+            "IT security and infrastructure.",
+            "Internal audit.",
+            "IT risk.",
+            "Data analysis.",
+            "Data analysis and visualization tools (ACL, MS Excel, SAS, Tableau)",
+            "Security risk management.",
+            "Security testing and auditing.",
+            "Computer security"
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.linkedin.com/learning/paths/prepare-for-the-certified-information-systems-auditor-cisa-exam?clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3igzSTVkBzQ0&mcid=6851962469594763264&src=aff-lilpar&veh=aff_src%2Eaff-lilpar_c%2Epartners_pkw%2E259799_plc%2EClass+Central_pcrid%2E_learning&irgwc=1&trk=aff_src%2Eaff-lilpar_c%2Epartners_pkw%2E259799_plc%2EClass+Central_pcrid%2E_learning",
+            "https://www.udemy.com/course/iso-9001-qms-auditor-lead-auditor-course/?discountCode=ST14MT42622&ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-.aqUOBg93S17vdIKPZDoUQ&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹8.16 Lakhs per annum",
+         "job-img":"http://www.art-systems.net/wp-content/uploads/2017/03/bigstock-Audit-and-compliance-in-word-63412828.jpg"
 
     },
     "Database Manager":{
-        "des": "",
+        "des": "A database manager is responsible for developing and maintaining an organizations' systems that store and organize data for companies. By implementing several security programs, they ensure the safety of stored data.",
         "skills": [
-            "",
-            ""
+            "Strong analytical problem-solving skills.",
+            "Advances proficiency in structured query language.",
+            "In-depth knowledge of database technologies.",
+            "Ability to troubleshoot software and hardware issues.",
+            "Advanced analytical organizational skills and attention to detail."
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.udemy.com/course/aws-lambda-serverless-architecture/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-F44ofNN6UlinyQ21kYOhJQ&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads",
+            "https://www.coursera.org/learn/excel-data-analysis-fundamentals?irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3ilV8Z2zgSw0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=b2c"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹15.00 Lakhs per annum",
+         "job-img":"https://www.svgrepo.com/show/171010/data-management.svg"
 
     },
     "Applications Developer":{
-        "des": "",
+        "des": "An application developer is a software engineer who designs, creates, tests, programs and updates applications for a particular device like mobile or web or a specific operating system. Application developers typically specialise in one area of development, like a mobile phone application. They are also involved in performing regular updates on applications and releasing the latest update to the end-users. They are an important part of the project management or technical team that is responsible for meeting user needs.",
         "skills": [
-            "",
-            ""
+            "Application developers need to have high-level programming skills",
+            "Application developers should be able to see what their users are experiencing and determine how they can solve the problem or optimise the experience.",
+            "Application developers need to be able to catch potential problems in functionality during development, testing and launch.",
+            "App developers should be able to interpret user needs and apply this to the mobile application products they create.",
+            " Developers are often given a list of client requirements for each project. Using this framework, application developers need to be able to think creatively to find a solution to meet client's needs."
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.pluralsight.com/courses/java-io-api-java-se-applications-java-se-11-developer-certification-1z0-819?clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3ii00Z2zgSw0&irgwc=1&mpid=259799&aid=7010a000001xAKZAA2&utm_medium=digital_affiliate&utm_campaign=259799&utm_source=impactradius",
+            "https://www.pluralsight.com/courses/aws-developer-migrating-applications-cloud?clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3ii0kZ2zgSw0&irgwc=1&mpid=259799&aid=7010a000001xAKZAA2&utm_medium=digital_affiliate&utm_campaign=259799&utm_source=impactradius"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹8 Lakhs per annum",
+         "job-img":"https://e7.pngegg.com/pngimages/846/561/png-clipart-man-using-computer-web-development-mobile-app-development-software-developer-web-developer-programmer-developer-web-design-expert-thumbnail.png"
 
     },
     "Database Administrator":{
-        "des": "",
+        "des": "A database administrator (DBA) is the information technician responsible for directing or performing all activities related to maintaining a successful database environment. A DBA makes sure an organization's database and its related applications operate functionally and efficiently.",
         "skills": [
-            "",
-            ""
+            "Patience.",
+            "Meticulous attention to detail.",
+            "A logical approach to work.",
+            "The ability to prioritise tasks.",
+            "Problem-solving skills.",
+            "Good organisational skills.",
+            "Communication and interpersonal skills."
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.coursera.org/degrees/master-of-applied-data-science-umich?irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=degree&irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3iEREZ2zgSw0&irgwc=1",
+            "https://www.classcentral.com/course/udemy-hands-on-linux-7-setup-for-oracle-12c-datab-67608"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹7.5 Lakhs per annum",
+         "job-img":"https://www.scylladb.com/wp-content/uploads/database-administrator-diagram.png"
 
     },
     "Network Engineer":{
-        "des": "",
+        "des": "A network engineer is a technology professional who has the necessary skills to plan, implement and oversee the computer networks that support in-house voice, data, video and wireless network services.",
         "skills": [
-            "",
-            ""
+            "Customer Relations",
+            "Analytics and Troubleshooting",
+            "Firewalls and Security",
+            "Networking",
+            "Engineers should know general-purpose scripting languages such as Python, Ruby, and Perl, which are the most popular for enterprise-grade networks.",
+            "It’s key to be aware of the major network hardware vendors and what products they offer; while you may not be making the purchase decisions directly, you will be expected to know the networks’ needs that form the basis for these purchase decisions.",
+            "IoT is predicted to make a huge impact on enterprise network traffic, infrastructure, and security, as more businesses come to rely on IoT devices. While generally associated with 4G and 5G networks, certain types of network architectures, such as SD-branch, will use WiFi or other non-mobile connections to support their IoT ecosystems. "
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.coursera.org/learn/preparing-for-the-professional-cloud-network-engineer-journe?irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3iCWkZ2zgSw0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=b2c",
+            "https://www.classcentral.com/course/google-cloud-networking-22067/visit"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹4.70 Lakhs per annum",
+         "job-img":"https://i.etsystatic.com/19837560/r/il/a6de2d/2195718634/il_340x270.2195718634_dtbn.jpg"
 
     },
     "Software Engineer":{
-        "des": "",
+        "des": "Software engineering is the branch of computer science that deals with the design, development, testing, and maintenance of software applications. Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users.",
         "skills": [
-            "",
-            ""
+            "Mathematical aptitude.",
+            "Problem-solving skills.",
+            "Programming languages (different types of developer role require different languages)",
+            "Excellent organisational and time management skills.",
+            "Accuracy and attention to detail."
         ],
         "rec courses": [
-            "",
-            ""
-        ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+            "https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer",
+            "https://www.linkedin.com/learning/paths/become-a-software-developer?src=aff-lilpar&veh=aff_src.aff-lilpar_c.partners_pkw.259799_plc.Class%20Central_pcrid._learning&trk=aff_src.aff-lilpar_c.partners_pkw.259799_plc.Class%20Central_pcrid._learning&clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3i31CTVkBzQ0&mcid=6851962469594763264&irgwc=1"
+        ],  
+        "starting salary": "₹5.00 Lakhs per annum",
+         "job-img":"https://st2.depositphotos.com/6064568/9404/v/380/depositphotos_94043980-stock-illustration-man-software-engineer-concept-with.jpg?forcejpeg=true"
+
 
     },
     "Technical Engineer":{
-        "des": "",
+        "des": "For a wide variety of industries, technical engineers detect and solve problems that arise in their given discipline. This may be research and development, manufacturing, sales, electrical technology, computer systems, construction, inspections and more. Depending on their industry, a technical engineer may build or set up equipment, conduct experiments, make models of new equipment, test products, collect data, or help design and develop products. In all areas, they find ways to make things work efficiently.",
         "skills": [
-            "",
-            ""
+            "A large part of an engineer's job is assessing a situation, identifying problems and then finding solutions. Employers may want to see that you are capable of handling challenges in your daily work.",
+            "No matter what field of engineering you are working in, it is likely a requirement to use computers to do your job effectively. Skills like programming are valuable across a broad range of engineering disciplines and are appealing to prospective employers.",
+            "When working in a field where precision is important, such as engineering, an individual must have strong attention to detail. Employers may like candidates who can demonstrate their ability to not overlook small but important details.",
+            "Engineering projects can be challenging, so a candidate needs to be reliable under stress. By highlighting your ability to deliver in difficult situations, you can make yourself appealing to potential employers.",
+            "Few engineering projects involve an engineer working on their own without coworkers or outside professionals. Teamwork skills are essential for ensuring you can cooperate with teammates to succeed as a unit and perform to your highest combined ability.",
+            "Research skills are often necessary within engineering positions to help determine advancements within the field, develop products and gather information. Engineers commonly conduct research by reading academic journals, studying competitors' products and examining various other forms of literature."
+            
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.linkedin.com/learning/technical-sales-the-role-of-the-sales-engineer?src=aff-lilpar&veh=aff_src.aff-lilpar_c.partners_pkw.259799_plc.Class%20Central_pcrid._learning&trk=aff_src.aff-lilpar_c.partners_pkw.259799_plc.Class%20Central_pcrid._learning&clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3iMzbTVkBzQ0&mcid=6851962469594763264&irgwc=1",
+            "https://www.edx.org/course/six-sigma-define-and-measure?source=aw&awc=6798_1658837873_3049b5e1708a134faf45eecf749656d1&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=301045_https%3A%2F%2Fwww.class-central.com%2F"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹4.69 Lakhs per annum",
+         "job-img":"https://images.practicaladultinsights.com/technical-electrical-engineer.jpg"
 
     },
     "Network Security Engineer":{
-        "des": "",
+        "des": "A network security engineer protects systems from cyber threats, including bugs, malware, and hacking attempts. The IT professional should be able to identify existing issues and build safeguards to avoid future threats. Testing and configuration of hardware and software systems is involved.",
         "skills": [
-            "",
-            ""
+            "Secure network architecture.",
+            "Vulnerability testing.",
+            "Threat modeling.",
+            "Virtualization technologies.",
+            "Cloud security.",
+            "Firewalls.",
+            "Encryption solutions.",
+            "Secure coding practices."
+            
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.pluralsight.com/courses/microsoft-azure-security-engineer-implement-advanced-network-security?clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3iJUSTVkBzQ0&irgwc=1&mpid=259799&aid=7010a000001xAKZAA2&utm_medium=digital_affiliate&utm_campaign=259799&utm_source=impactradius",
+            "https://www.udemy.com/course/learn-ethical-hacking-from-scratch/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-U5QbRIAu1Q3S_ztpwZ4nZA&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads"
         ],
-"starting salary": "₹4.25 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+        "starting salary": "₹5.5 Lakhs per annum",
+         "job-img":"https://previews.123rf.com/images/arthead/arthead1907/arthead190700026/128279197-data-security-system-information-or-network-protection-cyber-security-and-data-protection-shield-ico.jpg"
 
     },
     "Software Quality Assurance (QA) / Testing":{
         "des": "",
         "skills": [
-            "",
-            ""
+            "Secure network architecture.",
+            "Vulnerability testing.",
+            "Threat modeling.",
+            "Virtualization technologies.",
+            "Cloud security.",
+            "Firewalls.",
+            "Encryption solutions.",
+            "Secure coding practices."
+            
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.pluralsight.com/courses/microsoft-azure-security-engineer-implement-advanced-network-security?clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3iJUSTVkBzQ0&irgwc=1&mpid=259799&aid=7010a000001xAKZAA2&utm_medium=digital_affiliate&utm_campaign=259799&utm_source=impactradius",
+            "https://www.udemy.com/course/learn-ethical-hacking-from-scratch/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-U5QbRIAu1Q3S_ztpwZ4nZA&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads"
         ],
 "starting salary": "₹4.25 Lakhs per annum",
          "job-img":"../images/ssa.png"
