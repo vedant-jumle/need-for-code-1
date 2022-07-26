@@ -1,5 +1,7 @@
 <div id="form1">
     <link rel="stylesheet" href="../../static/styles/percentage_form.css">
+    <script src="../../static/js/componentSwitch.js"></script>
+
     <div class="mt-3 d-flex flex-row justify-content-center">
         <h1>Enter your details:</h1>
     </div>
@@ -9,50 +11,50 @@
             <div class="col ms-5 me-5">
                 <div class="form-group">
                     <label class="mt-4" for="marks">Marks in Operating Systems (in %):</label>
-                    <input type="number" class="form-control" id="os_marks">
+                    <input type="number" class="form-control" id="os_marks" required>
                 </div>
         
                 <div class="form-group">
                     <label class="mt-4" for="marks">Marks in Algorithms (in %):</label>
-                    <input type="number" class="form-control" id="aoa_marks">
+                    <input type="number" class="form-control" id="aoa_marks" required>
                 </div>
         
                 <div class="form-group">
                     <label class="mt-4" for="marks">Marks in Software Engineering (in %):</label>
-                    <input type="number" class="form-control" id="se_marks">
+                    <input type="number" class="form-control" id="se_marks" required>
                 </div>
         
                 <div class="form-group">
                     <label class="mt-4" for="marks">Marks in Computer Networking (in %):</label>
-                    <input type="number" class="form-control" id="cn_marks">
+                    <input type="number" class="form-control" id="cn_marks" required>
                 </div>
             </div>
             
             <div class="col ms-5 me-5">
                 <div class="form-group">
                     <label class="mt-4" for="marks">Marks in Electronics Subjects (in %):</label>
-                    <input type="number" class="form-control" id="es_marks">
+                    <input type="number" class="form-control" id="es_marks" required>
                 </div>
         
                 <div class="form-group">
                     <label class="mt-4" for="marks">Marks in Computer Architecture (in %):</label>
-                    <input type="number" class="form-control" id="coa_marks">
+                    <input type="number" class="form-control" id="coa_marks" required>
                 </div>
         
                 <div class="form-group">
                     <label class="mt-4" for="marks">Marks in Mathematics (in %):</label>
-                    <input type="number" class="form-control" id="math_marks">
+                    <input type="number" class="form-control" id="math_marks" required>
                 </div>
         
                 <div class="form-group">
                     <label class="mt-4" for="marks">Marks in Communication Skill (in %):</label>
-                    <input type="number" class="form-control" id="comm_marks">
+                    <input type="number" class="form-control" id="comm_marks" required>
                 </div>
             </div>
         </div>
         <br>
         <div class="d-flex flex-row justify-content-center">
-            <input type="button" class="mt-5 btn btn-primary" id="save_marks" value="Next">
+            <input type="button" onclick="switchOnetoTwo()" class="mt-5 btn btn-primary" id="save_marks" value="Next">
         </div>
 
     </form>
