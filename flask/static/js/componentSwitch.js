@@ -28,3 +28,65 @@ function switchTwotoOne(){
     form1.style.display = 'inline';
     form2.style.display = 'none';
 }
+
+function switchTwotoThree(){
+    let form3 = document.getElementById('form3');
+    let form2 = document.getElementById('form2');
+
+    let logic = document.getElementById('logic').value; 
+    let work_hours = document.getElementById('work_hours').value;
+    let coding_skills = document.getElementById('coding_skills').value;
+    let communication_skills = document.getElementById('communication_skills').value;
+
+    localStorage.setItem('logic',logic);
+    localStorage.setItem('work_hours',work_hours);
+    localStorage.setItem('coding_skills',coding_skills);
+    localStorage.setItem('communication_skills',communication_skills);
+
+    form2.style.display = 'none';
+    form3.style.display = 'inline';
+}
+
+function switchThreetoTwo(){
+    let form2 = document.getElementById('form2');
+    let form3 = document.getElementById('form3');
+
+    form2.style.display = 'inline';
+    form3.style.display = 'none';
+}
+function switchFourToFive(){
+    let form4 = document.getElementById('form4');
+    let form5 = document.getElementById('form5');
+
+    form4.style.display = 'none';
+    form5.style.display = 'inline';
+}
+function switchFiveToSix(){
+    let form5 = document.getElementById('form5');
+    let form6 = document.getElementById('form6');
+
+    form5.style.display = 'none';
+    form6.style.display = 'inline';
+}
+function switchSixToSeven(){
+    let form6 = document.getElementById('form6');
+    let form7 = document.getElementById('form7');
+
+    form6.style.display = 'none';
+    form7.style.display = 'inline';
+}
+function switchSevenToEight(){
+    let form7 = document.getElementById('form7');
+    let form8 = document.getElementById('form8');
+
+    form7.style.display = 'none';
+    form8.style.display = 'inline';
+}
+function switchEightToNine(){
+    let form8 = document.getElementById('form8');
+    let form9 = document.getElementById('form9');
+
+    form8.style.display = 'none';
+    form9.style.display = 'inline';
+}
+

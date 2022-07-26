@@ -2,7 +2,64 @@
     <link rel="stylesheet" href="../../static/styles/form2.css">
     <script src="../../static/js/componentSwitch.js"></script>
     <div>
-        <h1>Enter your details</h1>   
-        <input type="submit" class="mt-5 btn btn-primary" id="save_marks" value="Back">     
+        <h1>Enter your details</h1>
+        <label for="work_hours">How many hours are you willing to work?: <span id="no_hrs"></span></label>
+        <br>
+        <input class="mt-2" onmouseenter="change_no_hrs()" onchange="change_no_hrs()" onclick="change_no_hrs()" onpointermove="change_no_hrs()" id="work_hours" type="range" value ="4" min="4" max="12" step="1">
+        <br>
+        <label for="logic">Logical Quotient rating: <span id="logic_val"></span></label>
+        <br>
+        <input class="mt-2" onmouseenter="change_logical_quotient()" onchange="change_logical_quotient()" onclick="change_logical_quotient()" onpointermove="change_logical_quotient()" name="logic" id="logic" type="range" value ="1" min="1" max="10" step="1">
+        <br>
+        <label for="hackathons">Number of hackathons participated in:</label>
+        <br>
+        <input class="mt-2" type="number" name="hackathons" id="hackathons">
+        <br>
+        <label class="mt-2" for="coding_skills">Rate your coding skills:<span id="coding_skills_val"></span></label>
+        <br>
+        <input class="mt-2" onmouseenter="change_coding_skills()" onchange="change_coding_skills()" onclick="change_coding_skills()" onpointermove="change_coding_skills()" name="coding_skills" id="coding_skills" type="range" value ="1" min="1" max="10" step="1">
+        <br>
+        <label class="mt-2" for="communication_skills">Rate your communication skills:<span id="communication_skills_val"></span></label>
+        <br>
+        <input class="mt-2" onmouseenter="change_communication_skills()" onchange="change_communication_skills()" onclick="change_communication_skills()" onpointermove="change_communication_skills()" name="communication_skills" id="communication_skills" type="range" value ="1" min="1" max="10" step="1">
+        <div class="foot-nav d-flex flex-row justify-content-around">
+            <input type="button" onclick="switchTwotoOne()" class="mt-5 btn btn-primary" id="save_marks" value="Back">     
+            <input type="button" onclick="switchTwotoThree()" class="mt-5 btn btn-primary" id="save_marks" value="Next">     
+        </div>        
     </div>
+    <script>
+
+        var quotient = document.getElementById('logic').value;
+        document.getElementById('logic_val').innerHTML = quotient;
+
+        var work_hours = document.getElementById("work_hours").value;
+        document.getElementById("no_hrs").innerHTML = work_hours;
+
+        var coding_skills = document.getElementById("coding_skills").value;
+        document.getElementById("coding_skills_val").innerHTML = coding_skills;
+
+        var communication_skills = document.getElementById("communication_skills").value;
+        document.getElementById("communication_skills_val").innerHTML = communication_skills;
+
+        function change_logical_quotient(){
+            var quotient = document.getElementById('logic').value;
+            document.getElementById('logic_val').innerHTML = quotient;
+        }
+
+        function change_no_hrs() {
+            var work_hours = document.getElementById("work_hours").value;
+            document.getElementById("no_hrs").innerHTML = work_hours;
+        }
+
+        function change_coding_skills() {
+            var coding_skills = document.getElementById("coding_skills").value;
+            document.getElementById("coding_skills_val").innerHTML = coding_skills;
+        }
+
+        function change_communication_skills(){
+            var communication_skills = document.getElementById("communication_skills").value;
+            document.getElementById("communication_skills_val").innerHTML = communication_skills;
+        }
+
+    </script>
 </div>
