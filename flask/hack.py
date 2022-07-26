@@ -11,6 +11,9 @@ req_url = {}
 def landing_page():
     return render_template('index.ejs')
 
+@app.route('/og_form')
+def form_page():
+    return render_template('form.ejs')
 
 @app.route('/form', methods=['POST'])
 def fetch_and_send_details():
