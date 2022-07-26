@@ -2,124 +2,121 @@
     "Database Developer":{
         "des": "Database developers, also known as database designers or database programmers, are responsible for the design, programming, construction, and implementation of new databases, as well as modifying existing databases for platform updates and changes in user needs. Alternatively, database administrators ensure that the database programs are managed and maintained to permit rapid access whenever and however needed by authorized personnel only. Database administrators also work with cybersecurity professionals to safeguard the data from unauthorized access and damage. Check out our career guide for database administrators and discover more about that role, how it contrasts with that of a database developer, and discover which most interests you.",
         "skills": [
-            "",
-            ""
-        ],
-        "rec courses": [
             "Applying technical design and development skills to the creation of database programs",
             "Analyzing existing databases and data needs of clients to develop effective systems",
             "Using knowledge of specific programming languages and codes",
             "Following implementation processes for new databases",
             "Troubleshooting and providing solutions for any bugs in new database applications"
         ],
-        "rec companies": [
-            "Tata Consultancy Services",
-            "Epsilon",
-            "Cognizant Technology Solutions"
-
+        "rec courses": [
+            "https://www.udemy.com/course/database-developer-sql-servert-sqldatabase-migration/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-Qizsr3tkLDoXQ8Pv46258Q&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads",
+            "https://www.linkedin.com/learning/paths/become-a-database-developer?src=aff-lilpar&veh=aff_src.aff-lilpar_c.partners_pkw.259799_plc.Class%20Central_pcrid._learning&trk=aff_src.aff-lilpar_c.partners_pkw.259799_plc.Class%20Central_pcrid._learning&clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3nuT6TVkBzQ0&mcid=6851962469594763264&irgwc=1",
+            "https://www.udemy.com/course/mastering-sql-server/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-OuxTSm4q5fo1a6UQjng9.A&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads"
         ],
-        "job-img": "images/database.webp"
+        "starting salary": "₹2.3 Lakhs per annum",
+        "job-img": "../images/da.webp"
     },
     "Portal Administrator":{
-        "des": "",
+        "des": "The Portal Administrator role represents the highest level of user access rights that can be assigned in LatitudeLearning®. It is part of the default set of roles provided with the system and is reserved for only those user accounts authorized to manage foundational setup and hosted content. Portal Administrators create and manage key records, including organization structure, courses and the accounts of all other users in their portal.",
         "skills": [
-            "",
-            ""
+            "Control the look and feel of your LMS via Site Management tools",
+            "Define and manage foundational structures and hierarchies",
+            "Create and manage key course and resource catalogs"
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.coursera.org/degrees/master-of-computer-science-illinois?irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=degree&irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3nOR7TVkBzQ0&irgwc=1"         ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+        "starting salary": "₹4.25 Lakhs per annum",
+        "job-img":"../images/pa.png"
 
     },
     "Systems Security Administrator":{
-        "des": "",
+        "des": "A security systems administrator is someone who gives expert advice to companies regarding their internal security procedures and can also help to detect any weaknesses in a company's computer network that may make them vulnerable to cyber attacks. Security systems administrators are a company’s first step in monitoring suspicious activity either within the local network or from outside internet traffic.Security systems administrators are in charge of the daily operation of security systems, and can handle things like systems monitoring and running regular backups; setting up, deleting and maintaining individual user accounts; and developing organizational security procedures.",
         "skills": [
-            "",
-            ""
+            "Knowledge of common protocols such as SSL, HTTP, DNS, SMTP and IPSec",
+            "A strong understanding of firewall technologies",
+            "Packet shaper, load balancer and proxy server knowledge",
+            "Intermediate to expert intrusion detection system/intrusion prevention system knowledge",
+            "Deep understanding of IT infrastructure, including protocols, operating systems and networks"
+
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.linkedin.com/learning/red-hat-certified-system-administrator-ex200-cert-prep-2-file-access-storage-and-security?clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3nNWrTVkBzQ0&mcid=6851962469594763264&src=aff-lilpar&veh=aff_src%2Eaff-lilpar_c%2Epartners_pkw%2E259799_plc%2EClass+Central_pcrid%2E_learning&irgwc=1&trk=aff_src%2Eaff-lilpar_c%2Epartners_pkw%2E259799_plc%2EClass+Central_pcrid%2E_learning",
+            "https://www.classcentral.com/course/introduction-cybersecurity-cyber-attacks-13869",
+            "https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst"
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+       "starting salary": "₹10 Lakhs per annum",
+        "job-img":"../images/ssa.png"
 
     },
     "Business Systems Analyst":{
-        "des": "",
+        "des": "Business systems analysts use both business and technology tools to examine a company’s operating system, procedures, and design improvements.  They aim to help a company operate more efficiently and effectively through the design and implementation of information technology systems. They consult with leaders and managers to understand the usage of emerging technologies that can benefit the company. They write instruction manuals and analyze costs and benefits related to the technology. They have specialization in the system the company uses.",
         "skills": [
-            "",
-            ""
+            "Determines operational objectives by studying business functions, gathering information, and evaluating output requirements.",
+            "Examines current business procedures and recommends new ones.",
+            "Designs new computer programs by analyzing requirements, constructing workflow charts, and writing specifications.",
+            "Improves systems by studying current system practices and IT modification design.",
+            "Recommends controls by identifying problems."
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.classcentral.com/course/youtube-data-analyst-portfolio-projects-92262/classroom",
+            "https://www.udacity.com/course/data-analyst-nanodegree--nd002?irclickid=TP7WWY0e%3AxyNTuXTYaSGh1y%3AUkD3nPS6TVkBzQ0&irgwc=1&utm_source=affiliate&utm_medium=&aff=259799&utm_term=&utm_campaign=_gtcm_direct_&utm_content=&adid=788805"
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+        "starting salary": "₹8.88 Lakhs per annum",
+         "job-img":"../images/ba.jpg"
 
     },
     "Quality Assurance Associate":{
-        "des": "",
+        "des": "The Quality Assurance Associate will quickly analyze print book file quality and make decisions based on specifications and instructions. The QA associate is responsible for final file quality and should be able to accurately determine whether something passes or fails according to specifications, have strong attention to detail, and the ability to adapt to updated instructions. The candidate should be professional, work autonomously, navigate effectively through a decision-driven workflow, and be able to track data through Excel.",
         "skills": [
-            "",
-            ""
+            "Functioning knowledge of Microsoft systems including: Word, Excel",
+            "Fluent English language skills (spoken and written)",
+            "Ability to meet deadlines in a fast-paced work environment driven by software systems and processes",
+            "Ability to trouble-shoot and make visual quick decisions based on training"
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.edx.org/course/excel-fundamentos-y-herramientas?source=aw&awc=6798_1658823506_c632fd4d00db24023ec39ebae598d769&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=301045_https%3A%2F%2Fwww.class-central.com%2F",
+            "https://www.coursera.org/learn/analytics-excel?irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3nc3zTVkBzQ0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=b2c"
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+        "starting salary": "₹1.8 Lakhs per annum",
+         "job-img":"../images/qa.jpg"
 
     },
     "Web Developer":{
-        "des": "",
+        "des": "The scope of a web developer’s job can depend on their specialty and what they’re most experienced in. Back-end developers are responsible for writing the code that stores and processes data on a site. Front-end developers focus more on the user interface and need an eye for design. Full-stack developers have some proficiency in both front- and back-end web development.",
         "skills": [
-            "",
-            ""
+            "Computer literacy.",
+            "Strong numeracy skills.",
+            "Strong creative ability.",
+            "Excellent problem-solving skills.",
+            "A logical approach to work."
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.linkedin.com/learning/getting-started-as-a-full-stack-web-developer?replacementOf=web-development-foundations-web-technologies",
+            "https://www.linkedin.com/learning/paths/become-a-web-developer?src=aff-lilpar&veh=aff_src.aff-lilpar_c.partners_pkw.259799_plc.Class%20Central_pcrid._learning&trk=aff_src.aff-lilpar_c.partners_pkw.259799_plc.Class%20Central_pcrid._learning&clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3nZ3jTVkBzQ0&mcid=6851962469594763264&irgwc=1"
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+        "starting salary": "1.2 Lakhs per annum",
+         "job-img":"../images/wd.png"
 
     },
     "Information Security Analyst":{
-        "des": "",
+        "des": "An Information Security Analyst defends computer networks operated by private businesses, government organizations, and nonprofit organizations. There are few fields where an Information Security Analyst cannot find work – finance, marketing, insurance, sales, computer systems, and many other industries rely on data security. As Machine Learning and predictive modeling demonstrate their returns on investment, more business types will require the skills of a competent Information Security Analyst.",
         "skills": [
-            "",
-            ""
+            "Security Management Frameworks",
+            "Operating Systems Vulnerabilities",
+            "Network Infrastructure",
+            "Client-Facing Skills",
+            "Business Acumen",
+            "Data Privacy and Regulations",
+            "Problem-Solving"
+
         ],
         "rec courses": [
-            "",
-            ""
+            "https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst",
+            "https://www.coursera.org/learn/ibm-cybersecurity-analyst-assessment?irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3nbySTVkBzQ0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=b2c"
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+        "starting salary": "₹6.1 Lakhs per annum",
+         "job-img":"https://st4.depositphotos.com/14285908/20255/v/380/depositphotos_202555124-stock-illustration-information-security-man-business-suit.jpg?forcejpeg=true"
 
     },
     "CRM Business Analyst":{
@@ -132,11 +129,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Technical Support":{
@@ -149,11 +143,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Project Manager":{
@@ -166,11 +157,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Information Technology Manager":{
@@ -183,11 +171,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Programmer Analyst":{
@@ -200,11 +185,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Design & UX":{
@@ -217,11 +199,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Solutions Architect":{
@@ -234,11 +213,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Systems Analyst":{
@@ -251,11 +227,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Network Security Administrator":{
@@ -268,11 +241,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Data Architect":{
@@ -285,11 +255,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Software Developer":{
@@ -302,11 +269,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "E-Commerce Analyst":{
@@ -319,11 +283,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Technical Services/Help Desk/Tech Support":{
@@ -336,11 +297,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Information Technology Auditor":{
@@ -353,11 +311,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Database Manager":{
@@ -370,11 +325,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Applications Developer":{
@@ -387,11 +339,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Database Administrator":{
@@ -404,11 +353,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Network Engineer":{
@@ -421,11 +367,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Software Engineer":{
@@ -438,11 +381,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Technical Engineer":{
@@ -455,11 +395,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Network Security Engineer":{
@@ -472,11 +409,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     },
     "Software Quality Assurance (QA) / Testing":{
@@ -489,11 +423,8 @@
             "",
             ""
         ],
-        "rec companies": [
-            "",
-            ""
-        ],
-        "job-img":""
+"starting salary": "₹4.25 Lakhs per annum",
+         "job-img":"../images/ssa.png"
 
     }
 
