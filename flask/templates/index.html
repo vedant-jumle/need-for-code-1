@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hiro Agency Landing Page</title>
+    <link rel="stylesheet" href="../static/assets/vendors/animate.css/animate.min.css">
+    <link rel="stylesheet" href="../static/assets/css/style.css">
+    <script src="../static/assets/vendors/jquery/jquery.min.js"></script>
+    <script src="../static/assets/js/loader.js"></script>
+</head>
+
+<body>
+    <div class="hiro-loader"></div>
+    <header class="hiro-header home-header" id="top">
+        <nav>
+            <div class="container">
+                <div class="hiro-nav">
+                    <a href="/" class="nav-brand">
+                        <img src="../static/assets/images/logo.svg" alt="Hiro" class="logo" style="width: 5em;">
+                        <img src="../static/assets/images/logo_white.svg" alt="Hiro" class="logo-white">
+                    </a>
+                    <button class="hiro-nav-popup-toggle">
+                        <svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Hiro" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="hiro-agency" transform="translate(-964.000000, -37.000000)" fill="#FFFFFF">
+                                    <g id="Menu" transform="translate(964.000000, 37.000000)">
+                                        <g id="menu">
+                                            <rect id="Rectangle" fill-rule="nonzero" x="-8.05281767e-14" y="7.50795322" width="19.9609942" height="2.4951462"></rect>
+                                            <rect id="Rectangle" fill-rule="nonzero" x="-8.05281767e-14" y="14.9964327" width="19.9609942" height="2.4951462"></rect>
+                                            <rect id="Rectangle" fill-rule="nonzero" x="-8.05281767e-14" y="0.0194736842" width="19.9609942" height="2.4951462"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div class="container wow fadeInUp">
+            <div id="hiroHeaderCarousel" class="hiro-header-carousel carousel slide" data-ride="carousel" data-interval="3500">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6" style=" transform: translateY(10%);">
+                                <h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="CAREER"><span>LEARN MORE ABOUT YOURSELF</span></h1>
+                                <p class="carousel-item-description" data-animation="animated fadeInRight">Learn more about you hidden skills and stregths through our career guidance test</p>
+                                <a href="#Test" class="carousel-item-link link-hover-fx" data-animation="animated fadeInRight">Give Test</a>
+                                <!-- <ul class="carousel-item-social-links nav" data-animation="animated fadeInRight">
+                                    <li>
+                                        <a href="#!" class="link-hover-fx">FACEBOOK</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="link-hover-fx">TWITTER</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="link-hover-fx">BEHANCE</a>
+                                    </li>
+                                </ul> -->
+                            </div>
+                            <div class="col-md-6">
+                                <img src="../static/assets/images/avatar.jpg" alt="Remarkable Digital Products" class="img-fluid w-100 rounded" style="height: 60vh; width: 40vw;">
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+         
+            </div>
+        </div>
+    </header>
+    <div class="hiro-nav-popup-modal">
+        <div class="hiro-nav-popup-modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 menu-wrapper">
+                        <ul class="nav hiro-main-nav">
+                            <li class="nav-item">
+                                <a href="/" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link">Explore</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Test" class="nav-link">Take a test</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/explore" class="nav-link">Career Paths</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="bg-primary hiro-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column justify-content-center wow fadeInUp">
+                    <h2 class="section-title mb-3" style="font-size: 35px;">Specialized Career Guidance</h2>
+                    <p class="section-text-ct">Choosing a career has never been so easy. With our specialized proprietary free and highly accurate career guidance model getting to know more about yourself has never been eaiser!</p>
+                </div>
+                <div class="col-md-6 wow fadeInUp">
+                    <img src="../static/assets/images/img_3.png" class="w-100 mb-5" alt="Digital Product Design">
+                    <p class="section-text-light">Explore all available career paths you can experience and know some more infomation about them!</p>
+                    <button class="hiro-btn-outline" onclick="window.location.href='/explore'">EXPLORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="hiro-section" id="Test">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="section-title wow fadeInLeft">
+                        Find <br> your career with us
+                    </h2>
+                </div>
+                <div class="col-md-6 wow fadeInRight">
+                    <p class="section-text-ct mb-5">With a few simple questions learn about the career's you can explore</p>
+                    <button class="hiro-btn-outline" onclick="window.location.href='/og_form'">GIVE TEST</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" hiro-footer bg-primary" style="height: 30vh;">
+        <div class="container wow fadeInRight">
+            <h6 class="font-weight-semibold mb-4 mb-md-0">At Explose, it’s always storytelling time. Swing by & share yours.</h6>
+            <h2 class="section-title">MADE BY</h2>
+            <div class="contact-address">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p class="font-weight-medium">Viren Keswani, <br> Hriday Keswani, <br> Vedant Jumle</p>
+                    </div>
+                    <div class="col-md-5 mb-4 mb-md-0 ">
+                        <p class="font-weight-medium float-right"><a href="https://github.com/maxDeCoder/need-for-code-1"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" style="height: 2em;"></a><br>
+                        <!-- <ul class="nav contact-social-links">
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="../static/assets/images/twitter@1x.svg" alt="twitter">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="../static/assets/images/linkedin@1x.svg" alt="linkedin">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="../static/assets/images/facebook@1x.svg" alt="facebook">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="../static/assets/images/behance@1x.svg" alt="behance">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="../static/assets/images/medium@1x.svg" alt="medium">
+                                </a>
+                            </li>
+                        </ul> -->
+                    </div>
+                    <div class="float-right" style=" transform: translateY(-14%);">
+                        <a href="#top" class="go-top-btn">
+                            <img src="../static/assets/images/arrow_up@1x.svg" alt="arrow up">
+                            <span class="sr-only">Go to top</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="../static/assets/vendors/wowjs/wow.min.js"></script>
+    <script src="../static/assets/vendors/popper.js/popper.min.js"></script>
+    <script src="../static/assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../static/assets/js/main.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
