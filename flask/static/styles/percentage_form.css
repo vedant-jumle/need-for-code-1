@@ -1,0 +1,7 @@
+.container-one{
+    width: 98vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
