@@ -6,12 +6,36 @@
         <h1>Enter your details:</h1>
     </div>
 
-    <div class="d-flex flex-row justify-content-center">
-        <input type="button" onclick="switchThreetoTwo()" class="mt-5 btn btn-primary" value="Back">
-    </div>
-
     <div>
-        <input type="radio" name="long_hours" id="">
+        <label class="mt-2">Can you work for long hours?</label>
+        <br>
+        <label for="long_hours">Yes</label>
+        <input type="radio" id="long_hours_yes" name="long_hours" value="yes">
+        <label for="long_hours">No</label>
+        <input type="radio" id="long_hours_no" name="long_hours" value="no">
+        <br>
+
+        <label class="mt-2">Are you a self learner?</label>
+        <br>
+        <label for="self_learner">Yes</label>
+        <input type="radio" id="self_learner_yes" name="self_learner" value="yes">
+        <label for="self_learner">No</label>
+        <input type="radio" id="self_learner_no" name="self_learner" value="no">
+        <br>
+
+        <label class="mt-2">Have you taken part in extra curricular activities?</label>
+        <br>
+        <label for="extra_curricular">Yes</label>   
+        <input type="radio" id="extra_curricular_yes" name="extra_curricular" value="yes">
+        <label for="extra_curricular">No</label>
+        <input type="radio" id="extra_curricular_no" name="extra_curricular" value="no">
+        <br>
+
+    </div>
+    
+    <div class="d-flex flex-row justify-content-around">
+        <input type="button" onclick="switchThreetoTwo()" class="mt-5 btn btn-primary" value="Back">
+        <input type="button" onclick="switchThreetoFour()" class="mt-5 btn btn-primary" value="Next">
     </div>
 
     </form>

@@ -14,7 +14,7 @@
             "https://www.udemy.com/course/mastering-sql-server/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-OuxTSm4q5fo1a6UQjng9.A&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads"
         ],
         "starting salary": "₹2.3 Lakhs per annum",
-        "job-img": "../images/da.webp"
+        "job-img": "https://cdni.iconscout.com/illustration/premium/thumb/database-developer-1946886-1651587.png"
     },
     "Portal Administrator":{
         "des": "The Portal Administrator role represents the highest level of user access rights that can be assigned in LatitudeLearning®. It is part of the default set of roles provided with the system and is reserved for only those user accounts authorized to manage foundational setup and hosted content. Portal Administrators create and manage key records, including organization structure, courses and the accounts of all other users in their portal.",
@@ -27,7 +27,7 @@
             "https://www.coursera.org/degrees/master-of-computer-science-illinois?irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=degree&irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3nOR7TVkBzQ0&irgwc=1"
         ],
         "starting salary": "₹4.25 Lakhs per annum",
-        "job-img":"../images/pa.png"
+        "job-img":"http://cdn.onlinewebfonts.com/svg/img_325788.png"
 
     },
     "Systems Security Administrator":{
@@ -46,7 +46,7 @@
             "https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst"
         ],
        "starting salary": "₹10 Lakhs per annum",
-        "job-img":"../images/ssa.png"
+        "job-img":"https://www.svgrepo.com/show/308108/system-administrator-sysadmin.svg"
 
     },
     "Business Systems Analyst":{
@@ -63,7 +63,7 @@
             "https://www.udacity.com/course/data-analyst-nanodegree--nd002?irclickid=TP7WWY0e%3AxyNTuXTYaSGh1y%3AUkD3nPS6TVkBzQ0&irgwc=1&utm_source=affiliate&utm_medium=&aff=259799&utm_term=&utm_campaign=_gtcm_direct_&utm_content=&adid=788805"
         ],
         "starting salary": "₹8.88 Lakhs per annum",
-         "job-img":"../images/ba.jpg"
+         "job-img":"https://st.depositphotos.com/1845839/3342/v/380/depositphotos_33422489-stock-illustration-word-cloud-business-analysis.jpg?forcejpeg=true"
 
     },
     "Quality Assurance Associate":{
@@ -79,7 +79,7 @@
             "https://www.coursera.org/learn/analytics-excel?irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3nc3zTVkBzQ0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=b2c"
         ],
         "starting salary": "₹1.8 Lakhs per annum",
-         "job-img":"../images/qa.jpg"
+         "job-img":"https://st2.depositphotos.com/1431107/5815/v/380/depositphotos_58155325-stock-illustration-quality-stamp.jpg?forcejpeg=true"
 
     },
     "Web Developer":{
@@ -96,7 +96,7 @@
             "https://www.linkedin.com/learning/paths/become-a-web-developer?src=aff-lilpar&veh=aff_src.aff-lilpar_c.partners_pkw.259799_plc.Class%20Central_pcrid._learning&trk=aff_src.aff-lilpar_c.partners_pkw.259799_plc.Class%20Central_pcrid._learning&clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3nZ3jTVkBzQ0&mcid=6851962469594763264&irgwc=1"
         ],
         "starting salary": "1.2 Lakhs per annum",
-         "job-img":"../images/wd.png"
+         "job-img":"https://www.svgrepo.com/show/1699/web-development.svg"
 
     },
     "Information Security Analyst":{
