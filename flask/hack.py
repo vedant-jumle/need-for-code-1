@@ -2,12 +2,14 @@ from genericpath import exists
 from flask import Flask, redirect, render_template, request , Response
 import json
 import pandas as pd
+from sklearn import datasets
 
 
 app = Flask(__name__)
 
 req_url = {}
 df = pd.read_json('./content/jobless.json')
+df1= pd.read_csv('./dataset/career_pred.csv')
 
 @app.route('/test/<name>', methods=['GET'])
 def test(name):
@@ -18,7 +20,7 @@ def test(name):
 
 @app.route('/')
 def landing_page():
-    return render_template('index.ejs')
+    return render_template('index.html')
 
 @app.route('/og_form')
 def form_page():
@@ -35,6 +37,15 @@ def form_page():
 #     print('\n\n',ret,'\n\n')
 #     return Response(json.dumps(ret),
 #     mimetype='application/json')
+
+@app.route('/explore', methods=['GET'])
+def career_paths():
+    return render_template('career_paths.ejs' , jobs = df1['Suggested Job Role'].unique())
+
+@app.route('/explore/<name>', methods=['GET'])
+def career_paths_detail(name):
+     return render_template('job.html', des=df[name].des,name=name, skills= df[name].skills, crs = df[name]["rec courses"] , sal=df[name]['starting salary'], img=df[name]['job-img'])
+
 
 
 @app.route('/form', methods=['POST'])

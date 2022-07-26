@@ -2,7 +2,23 @@
     margin: 0px;
     padding: 0px;
 }
+header{
+    background-color: black;
+    height: 4em;
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    height: 3em;
+}
+.alignhdr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right{
 
+}
 .row{
     display: flex;
     flex-direction: row;
