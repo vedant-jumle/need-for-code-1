@@ -1,0 +1,501 @@
+{
+    "Database Developer":{
+        "des": "Database developers, also known as database designers or database programmers, are responsible for the design, programming, construction, and implementation of new databases, as well as modifying existing databases for platform updates and changes in user needs. Alternatively, database administrators ensure that the database programs are managed and maintained to permit rapid access whenever and however needed by authorized personnel only. Database administrators also work with cybersecurity professionals to safeguard the data from unauthorized access and damage. Check out our career guide for database administrators and discover more about that role, how it contrasts with that of a database developer, and discover which most interests you.",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "Applying technical design and development skills to the creation of database programs",
+            "Analyzing existing databases and data needs of clients to develop effective systems",
+            "Using knowledge of specific programming languages and codes",
+            "Following implementation processes for new databases",
+            "Troubleshooting and providing solutions for any bugs in new database applications"
+        ],
+        "rec companies": [
+            "Tata Consultancy Services",
+            "Epsilon",
+            "Cognizant Technology Solutions"
+
+        ],
+        "job-img": "images/database.webp"
+    },
+    "Portal Administrator":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Systems Security Administrator":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Business Systems Analyst":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Quality Assurance Associate":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Web Developer":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Information Security Analyst":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "CRM Business Analyst":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Technical Support":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Project Manager":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Information Technology Manager":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Programmer Analyst":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Design & UX":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Solutions Architect":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Systems Analyst":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Network Security Administrator":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Data Architect":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Software Developer":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "E-Commerce Analyst":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Technical Services/Help Desk/Tech Support":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Information Technology Auditor":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Database Manager":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Applications Developer":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Database Administrator":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Network Engineer":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Software Engineer":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Technical Engineer":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Network Security Engineer":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    },
+    "Software Quality Assurance (QA) / Testing":{
+        "des": "",
+        "skills": [
+            "",
+            ""
+        ],
+        "rec courses": [
+            "",
+            ""
+        ],
+        "rec companies": [
+            "",
+            ""
+        ],
+        "job-img":""
+
+    }
+
+    
+}
