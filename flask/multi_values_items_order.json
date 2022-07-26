@@ -1,0 +1,55 @@
+{
+    "certification": [
+        "shell programming",
+        "machine learning",
+        "app development",
+        "python",
+        "r programming",
+        "information security",
+        "hadoop",
+        "distro making",
+        "full stack"
+    ],
+    "workshops": [
+        "cloud computing",
+        "database security",
+        "web technologies",
+        "data science",
+        "testing",
+        "hacking",
+        "game development",
+        "system designing"
+    ],
+    "Interested subjects": [
+        "cloud computing",
+        "networks",
+        "hacking",
+        "Computer Architecture",
+        "programming",
+        "parallel computing",
+        "IOT",
+        "data engineering",
+        "Software Engineering",
+        "Management"
+    ],
+    "interested career area": [
+        "system developer",
+        "Business process analyst",
+        "developer",
+        "testing",
+        "security",
+        "cloud computing"
+    ],
+    "Type of company want to settle in?": [
+        "Web Services",
+        "SAaS services",
+        "Sales and Marketing",
+        "Testing and Maintainance Services",
+        "product development",
+        "BPA",
+        "Service Based",
+        "Product based",
+        "Cloud Services",
+        "Finance"
+    ]
+}
