@@ -1,10 +1,19 @@
+from genericpath import exists
 from flask import Flask, redirect, render_template, request , Response
 import json
+import pandas as pd
 
 
 app = Flask(__name__)
 
 req_url = {}
+df = pd.read_json('./content/jobless.json')
+
+@app.route('/test/<name>', methods=['GET'])
+def test(name):
+    print('######################################')
+    return render_template('job.html', des=df[name].des,name=name, skills= df[name].skills, crs = df[name]["rec courses"] , sal=df[name]['starting salary'], img=df[name]['job-img'])
+
 
 
 @app.route('/')
