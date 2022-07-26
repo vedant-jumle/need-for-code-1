@@ -3,6 +3,7 @@ from tensorflow import keras
 from itertools import product
 import pandas as pd
 import numpy as np
+from collections import Counter
 
 exclusion = [
     'hours working per day',
@@ -151,5 +152,6 @@ class CareerAdvisor:
             for j in top_5:
                 list_of_careers.append(labels[j])
 
+
         # return the list of unique careers
-        return list(set(list_of_careers))
+        return [item[0] for item in Counter(list_of_careers).most_common(top)]
