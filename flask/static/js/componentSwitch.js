@@ -28,3 +28,29 @@ function switchTwotoOne(){
     form1.style.display = 'inline';
     form2.style.display = 'none';
 }
+
+function switchTwotoThree(){
+    let form3 = document.getElementById('form3');
+    let form2 = document.getElementById('form2');
+
+    let logic = document.getElementById('logic').value; 
+    let work_hours = document.getElementById('work_hours').value;
+    let coding_skills = document.getElementById('coding_skills').value;
+    let communication_skills = document.getElementById('communication_skills').value;
+
+    localStorage.setItem('logic',logic);
+    localStorage.setItem('work_hours',work_hours);
+    localStorage.setItem('coding_skills',coding_skills);
+    localStorage.setItem('communication_skills',communication_skills);
+
+    form2.style.display = 'none';
+    form3.style.display = 'inline';
+}
+
+function switchThreetoTwo(){
+    let form2 = document.getElementById('form2');
+    let form3 = document.getElementById('form3');
+
+    form2.style.display = 'inline';
+    form3.style.display = 'none';
+}
