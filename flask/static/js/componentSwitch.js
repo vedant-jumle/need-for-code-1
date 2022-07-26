@@ -54,3 +54,39 @@ function switchThreetoTwo(){
     form2.style.display = 'inline';
     form3.style.display = 'none';
 }
+function switchFourToFive(){
+    let form4 = document.getElementById('form4');
+    let form5 = document.getElementById('form5');
+
+    form4.style.display = 'none';
+    form5.style.display = 'inline';
+}
+function switchFiveToSix(){
+    let form5 = document.getElementById('form5');
+    let form6 = document.getElementById('form6');
+
+    form5.style.display = 'none';
+    form6.style.display = 'inline';
+}
+function switchSixToSeven(){
+    let form6 = document.getElementById('form6');
+    let form7 = document.getElementById('form7');
+
+    form6.style.display = 'none';
+    form7.style.display = 'inline';
+}
+function switchSevenToEight(){
+    let form7 = document.getElementById('form7');
+    let form8 = document.getElementById('form8');
+
+    form7.style.display = 'none';
+    form8.style.display = 'inline';
+}
+function switchEightToNine(){
+    let form8 = document.getElementById('form8');
+    let form9 = document.getElementById('form9');
+
+    form8.style.display = 'none';
+    form9.style.display = 'inline';
+}
+
