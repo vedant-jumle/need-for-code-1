@@ -40,13 +40,13 @@ function switchTwotoThree() {
     let work_hours = document.getElementById('work_hours').value;
     let coding_skills = document.getElementById('coding_skills').value;
     let communication_skills = document.getElementById('communication_skills').value;
-    let no_hackathons = document.getElementById('hackathons').value;
+    let hackathons = document.getElementById('hackathons').value;
 
     localStorage.setItem('logic', logic);
     localStorage.setItem('work_hours', work_hours);
     localStorage.setItem('coding_skills', coding_skills);
     localStorage.setItem('communication_skills', communication_skills);
-    localStorage.setItem('no_hackathons', no_hackathons);
+    localStorage.setItem('hackathons', hackathons);
 
     form2.style.display = 'none';
     form3.style.display = 'inline';
