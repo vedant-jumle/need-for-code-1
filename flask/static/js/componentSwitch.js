@@ -190,12 +190,6 @@ function switchSevenToEight() {
         }
     }
 
-    if (document.getElementById('senior_input_yes').checked) {
-        localStorage.setItem('senior_input', 'yes');
-    } else {
-        localStorage.setItem('senior_input', 'no');
-    }
-
     localStorage.setItem('company_pref', company_pref_arr);
 
     form7.style.display = 'none';
