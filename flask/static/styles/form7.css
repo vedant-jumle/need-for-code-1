@@ -1,3 +1,13 @@
 #form7{
     display: none;
+    align-items: center;
+}
+
+span{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+label{
+    font-size: 1.3rem;
 }

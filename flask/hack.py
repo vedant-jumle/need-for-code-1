@@ -1,11 +1,5 @@
-from genericpath import exists
-# from datasets import tqdm
-# from django.shortcuts import render
-from flask import Flask, jsonify, redirect, render_template, request , Response
-import json
-from matplotlib import image
+from flask import Flask, render_template, request
 import pandas as pd
-from sklearn import datasets
 import jinja2
 env = jinja2.Environment()
 env.globals.update(zip=zip)
