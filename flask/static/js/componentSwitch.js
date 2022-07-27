@@ -40,11 +40,13 @@ function switchTwotoThree() {
     let work_hours = document.getElementById('work_hours').value;
     let coding_skills = document.getElementById('coding_skills').value;
     let communication_skills = document.getElementById('communication_skills').value;
+    let no_hackathons = document.getElementById('hackathons').value;
 
     localStorage.setItem('logic', logic);
     localStorage.setItem('work_hours', work_hours);
     localStorage.setItem('coding_skills', coding_skills);
     localStorage.setItem('communication_skills', communication_skills);
+    localStorage.setItem('no_hackathons', no_hackathons);
 
     form2.style.display = 'none';
     form3.style.display = 'inline';
@@ -178,30 +180,32 @@ function switchSixToSeven() {
     form6.style.display = 'none';
     form7.style.display = 'inline';
 }
-function switchSevenToEight() {
+function switchSeventoEight() {
+
     let form7 = document.getElementById('form7');
     let form8 = document.getElementById('form8');
 
-    let company_pref_arr = [];
-    for (let i = 0; i < 9; i++) {
-        let ids = "company_choice" + i;
-        if (document.getElementById(ids).checked) {
-            company_pref_arr.push(document.getElementById(ids).value);
-        }
-    }
+    // let company_pref_arr = [];
+    // for (let i = 1; i < 9; i++) {
+    //     let ids = "company_choice" + i;
+    //     if (document.getElementById(ids).checked) {
+    //         company_pref_arr.push(document.getElementById(ids).value);
+    //     }
+    // }
 
-    localStorage.setItem('company_pref', company_pref_arr);
+    // localStorage.setItem('company_pref', company_pref_arr);
 
-    form7.style.display = 'none';
-    form8.style.display = 'inline';
+    form8.style.display = 'inline';  //show form 8
+    form7.style.display = 'none';   //hide form 7
 }
-function switchEightToNine() {
-    let form8 = document.getElementById('form8');
-    let form9 = document.getElementById('form9');
 
-    form8.style.display = 'none';
-    form9.style.display = 'inline';
-}
+// function switchEightToNine() {
+//     let form8 = document.getElementById('form8');
+//     let form9 = document.getElementById('form9');
+
+//     form8.style.display = 'none';
+//     form9.style.display = 'inline';
+// }
 
 function eight() {
     if (document.getElementById('manage_tech_choice1').checked) {
