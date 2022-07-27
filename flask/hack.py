@@ -59,6 +59,8 @@ def career_paths_detail(name):
 def fetch_and_send_details():
     global model_output
 
+    print(request.json.get("long_hours", 0))
+
     res={
     "Acedamic percentage in Operating Systems": int(request.json["os_marks"]),
     "percentage in Algorithms": int(request.json["aoa_marks"]),
@@ -89,13 +91,15 @@ def fetch_and_send_details():
     "Salary/work": request.json["work_salary"],
     "hard/smart worker": request.json["hard_smart"],
     "worked in teams ever?": request.json["team_before"], #
-    "Introvert": request.json["intovert_not"],
+    "Introvert": request.json["introvert_not"],
     }
 
     new_res = {}
 
     for key in res.keys():
         new_res[key.lower()] = res[key]
+
+    print(new_res)
 
     model_output = model.process(new_res)
     print(model_output)
