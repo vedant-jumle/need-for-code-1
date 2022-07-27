@@ -131,8 +131,8 @@ class CareerAdvisor:
             elif col in items_2:
                 labels.append(0 if row[col] == "no" else 1)
             elif col in items_3:
-                uniques = self.df[col].unique().tolist()
-                labels.append(uniques.index(row[col]))
+                uniques = self.df[col].str.lower().unique().tolist()
+                labels.append(uniques.index(row[col].lower()))
             elif col in exclusion:
                 labels.append(row[col])
 

@@ -99,7 +99,7 @@ function switchFourToFive() {
     for (let i = 1; i < 9; i++) {
         let ids = "workshop" + i;
         if (document.getElementById(ids).checked) {
-            workshops_arr.push(document.getElementById(('cert' + i)).value);
+            workshops_arr.push(document.getElementById(('workshop' + i)).value);
         }
     }
 
