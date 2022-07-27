@@ -1,30 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Creative Design landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Career</title>
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="../static/assets/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Bootstrap + Creative Design main styles -->
+	<link rel="stylesheet" href="../static/assets/css/creative-design.css">
+
 </head>
-<body>
-    <h1>{{name}}</h1>
-    <h2>Description</h2>
-     {{des}}
-     <br><br>
-     <h2>Skills reqired</h2>
-     <ul>
-        {% for skill in skills %}
-            <li>{{skill}}</li>
-        {% endfor %}
-    </ul>
-    <h2>Course Recommendation</h2>
-    <ul>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+    <!-- Page Navbar -->
+    <nav id="scrollspy" class="navbar page-navbar navbar-light navbar-expand-md fixed-top" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="../static/assets/images/logo.svg" style="height: 3em;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#des">Description</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#crs">Course Recommendation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sal">Salary</a>
+                    </li>
+                    <li class="nav-item ml-md-4">
+                        <a class="nav-link btn btn-primary" href="/explore">Explore</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><!-- End of Page Navbar -->   
+
+    <!-- Page Header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <h6>{{name}}</h6> 
+            <button class="btn btn-outline-light" onclick="window.location.href='#des'">Explore Now</button> 
+        </div>      
+    </header><!-- End of Page Header -->    
+    
+    <!-- About Section -->
+    <section id="des">
+        <!-- Container -->
+        <div class="container">
+            <!-- About wrapper -->
+            <div class="about-wrapper">
+                <div class="after" style="transform: translateX(-10%);"><h1 style="font-size: 30px;">Description</h1></div>
+                <div class="content">
+                    <h5 class="title mb-3">{{name}}</h5>
+                    <!-- row -->
+                    <div class="row">
+                        <div class="col">
+                            {{des}}
+                        </div>
+                        <div class="col">
+                            <img src="{{img}}" style="height: 20vh;">
+                        </div>
+                    </div><!-- End of Row -->                   
+                    <!-- <a href="javascript:void(0)">Read More...</a> -->
+                </div>
+            </div><!-- End of About Wrapper -->         
+        </div>  <!-- End of Container-->        
+     </section><!--End of Section -->
+
+
+    <!-- section -->
+    <section>
+        <!-- Container -->
+        <div class="container" id="skills">
+            <!-- row -->
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6">
+                    <div class="img-wrapper">
+                        <div class="after"></div>
+                        <img src="../static/assets/imgs/img-1.jpg" class="w-100" alt="About Us">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h6 class="title mb-3">List Of Skills</h6>
+                    
+                    <ul>
+                        {% for skill in skills %}
+                            <li>{{skill}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <!-- End of Row -->
+        </div>  
+        <!-- End of Container -->
+    </section><!-- End of Section -->   
+
+    <!-- section -->
+    <section>
+        <!-- Container -->
+        <div class="container" id="crs">
+            <!-- Row -->
+            <div class="row justify-content-between align-items-center">                
+                <div class="col-md-5">
+                    <h6 class="title mb-3">Course Recommendation</h6>
+                    <ul>
        
-        {% for cr in crs %}
-            <li><a href='{{cr}}'>Click here for course</a></li>
-        {% endfor %}
-    </ul>
-    <h3>Base Salary = {{sal}}</h3>
-    <img src="{{img}}" alt="">
+                        {% for cr in crs %}
+                            <li><a href='{{cr}}'>Click here for course</a></li>
+                        {% endfor %}
+                    </ul>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="img-wrapper">
+                        <div class="after right"></div>
+                        <img src="../static/assets/imgs/img-2.jpg" class="w-100" alt="About Us">
+                    </div>                      
+                </div>
+            </div><!-- End of Row -->           
+        </div><!-- End of Container-->      
+    </section><!-- End of Section -->
+    
+
+   
+    <!-- Section -->
+    <section>
+        <!-- Container -->
+        <div class="container" id="sal">
+            <!-- Row -->
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6">
+                    <div class="img-wrapper">
+                        <div class="after"></div>
+                        <img src="../static/assets/imgs/img-3.jpg" class="w-100" alt="About us">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h6 class="title mb-3">Base Salary</h6>
+                    
+                    <p>For starts you can expect base salary of {{sal}}</p>
+                </div>
+            </div><!-- End of Row -->           
+        </div><!-- End of Container-->      
+    </section><!-- End of Section -->   
+    <section class=" hiro-footer bg-primary " style="height: 40vh; transform: translateY(-10%);">
+        <div class="container wow fadeInRight">
+            <h6 class="font-weight-semibold mb-4 mb-md-0">At Explose, it’s always storytelling time. Swing by & share yours.</h6>
+            <h2 class="section-title">MADE BY</h2>
+            <div class="contact-address">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p class="font-weight-medium">Viren Keswani, <br> Hriday Keswani, <br> Vedant Jumle</p>
+                    </div>
+                    <div class="col-md-5 mb-4 mb-md-0 ">
+                        <p class="font-weight-medium float-right"><a href="https://github.com/maxDeCoder/need-for-code-1"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" style="height: 2em;"></a><br>
+                        <!-- <ul class="nav contact-social-links">
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="../static/assets/images/twitter@1x.svg" alt="twitter">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="../static/assets/images/linkedin@1x.svg" alt="linkedin">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="../static/assets/images/facebook@1x.svg" alt="facebook">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="../static/assets/images/behance@1x.svg" alt="behance">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">
+                                    <img src="../static/assets/images/medium@1x.svg" alt="medium">
+                                </a>
+                            </li>
+                        </ul> -->
+                    </div>
+                    <div class="float-right" style=" transform: translateY();">
+                        <a href="#top" class="go-top-btn">
+                            <img src="../static/assets/images/arrow_up@1x.svg" alt="arrow up">
+                            <span class="sr-only">Go to top</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <!-- core  -->
+    <script src="../static/assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="../static/assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="../static/assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Creative Design js -->
+    <script src="../static/assets/js/creative-design.js"></script>
+
 </body>
 </html>

@@ -7531,10 +7531,9 @@ html {
       position: absolute;
       color: rgba(68, 215, 182, 0.62);
       z-index: 1;
-      font-size: 110px;
-      transform: translateY(-80%);
+      font-size: 200px;
       left: 0;
-      top: 2 ; }
+      top: 0; }
       @media (max-width: 991px) {
         .hiro-header-carousel .carousel-item-title::before {
           top: -20px; } }

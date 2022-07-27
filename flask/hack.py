@@ -1,15 +1,20 @@
 from genericpath import exists
 from flask import Flask, redirect, render_template, request , Response
 import json
+from matplotlib import image
 import pandas as pd
 from sklearn import datasets
-
+import jinja2
+env = jinja2.Environment()
+env.globals.update(zip=zip)
 
 app = Flask(__name__)
 
 req_url = {}
 df = pd.read_json('./content/jobless.json')
 df1= pd.read_csv('./dataset/career_pred.csv')
+
+print(len(df.keys()), len(df1["suggested job role"].unique()))
 
 @app.route('/test/<name>', methods=['GET'])
 def test(name):
@@ -40,11 +45,13 @@ def form_page():
 
 @app.route('/explore', methods=['GET'])
 def career_paths():
-    return render_template('career_paths.ejs' , jobs = df1['Suggested Job Role'].unique())
+    # jobs = df1['suggested job role'].unique().tolist()
+    jobs = list(df.keys())
+    return render_template('career_paths.ejs' , jobs = jobs , images=[df[job]['job-img'] for job in jobs], length=len(jobs))
 
 @app.route('/explore/<name>', methods=['GET'])
 def career_paths_detail(name):
-     return render_template('job.html', des=df[name].des,name=name, skills= df[name].skills, crs = df[name]["rec courses"] , sal=df[name]['starting salary'], img=df[name]['job-img'])
+     return render_template('job.html', des=df[name].des,name=name, skills= df[name].skills, crs = df[name]["rec courses"] , sal=df[name]["starting salary"], img=df[name]["job-img"])
 
 
 
