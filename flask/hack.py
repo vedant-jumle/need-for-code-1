@@ -113,7 +113,7 @@ def fetch_and_send_details():
 @app.route("/form/career")
 def career():
     global model_output
-
+    print(model_output)
     return render_template("final_career.ejs", outputs=model_output)
 
 if __name__=='__main__':
