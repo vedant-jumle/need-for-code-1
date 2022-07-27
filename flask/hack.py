@@ -1,6 +1,6 @@
 from genericpath import exists
-from datasets import tqdm
-from django.shortcuts import render
+# from datasets import tqdm
+# from django.shortcuts import render
 from flask import Flask, jsonify, redirect, render_template, request , Response
 import json
 from matplotlib import image
@@ -113,8 +113,8 @@ def fetch_and_send_details():
 @app.route("/form/career")
 def career():
     global model_output
-    print(model_output)
-    return render_template("final_career.ejs", outputs=model_output)
+
+    return render_template("final_career.ejs", outputs=model_output, img = [df[job]['job-img'] for job in model_output], len = len(model_output))
 
 if __name__=='__main__':
     app.run(host='0.0.0.0' , port=6969, debug=True)
