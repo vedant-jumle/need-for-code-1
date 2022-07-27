@@ -99,7 +99,7 @@ function switchFourToFive() {
     for (let i = 1; i < 9; i++) {
         let ids = "workshop" + i;
         if (document.getElementById(ids).checked) {
-            workshops_arr.push(document.getElementById(('cert' + i)).value);
+            workshops_arr.push(document.getElementById(('workshop' + i)).value);
         }
     }
 
@@ -183,18 +183,14 @@ function switchSevenToEight() {
     let form8 = document.getElementById('form8');
 
     let company_pref_arr = [];
-    for (let i = 0; i < 9; i++) {
+    for (let i = 1; i < 9; i++) {
         let ids = "company_choice" + i;
         if (document.getElementById(ids).checked) {
             company_pref_arr.push(document.getElementById(ids).value);
         }
     }
 
-    if (document.getElementById('senior_input_yes').checked) {
-        localStorage.setItem('senior_input', 'yes');
-    } else {
-        localStorage.setItem('senior_input', 'no');
-    }
+    console.log(company_pref_arr)
 
     localStorage.setItem('company_pref', company_pref_arr);
 
@@ -254,6 +250,5 @@ function submit_form(){
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(data)
-    })
-    .then(response => response.json())
+    }).then(res => document.location.href = "/form/career")
 }

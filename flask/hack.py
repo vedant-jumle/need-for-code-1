@@ -1,5 +1,7 @@
 from genericpath import exists
-from flask import Flask, redirect, render_template, request , Response
+from datasets import tqdm
+from django.shortcuts import render
+from flask import Flask, jsonify, redirect, render_template, request , Response
 import json
 from matplotlib import image
 import pandas as pd
@@ -64,36 +66,36 @@ def fetch_and_send_details():
     global model_output
 
     res={
-    "Acedamic percentage in Operating Systems": request.form["os_marks"],
-    "percentage in Algorithms": request.form["aoa_marks"],
-    "Percentage in Programming Concepts": request.form["percentage PC"], #
-    "Percentage in Software Engineering": request.form["se_marks"],
-    "Percentage in Computer Networks": request.form["cn_marks"],
-    "Percentage in Electronics Subjects": request.form["es_marks"],
-    "Percentage in Computer Architecture": request.form["coa_marks"],
-    "Percentage in Mathematics": request.form["math_marks"],
-    "percentage in Communication skills": request.form["comm_marks"],
-    "hours working per day": request.form["work_hours"],
-    "logical quotient rating": request.form["logic"],
-    "hackathons": request.form["hackathons"],
-    "coding skill rating": request.form["coding_skills"], #
-    "public speaking points": request.form["communication_skills"],
-    "can work long time before system?": request.form["long_hours"],
-    "self-learning capability?": request.form["self_learner"],
-    "Extra-courses did": request.form["extra_curricular"],
-    "certifications": request.form["certificates"],
-    "workshops": request.form["workshops"],
-    "reading and writing skills": request.form["read_write"],
-    "memory capability score": request.form["memory"],
-    "Interested subjects": request.form["interests"],
-    "Interested career area": request.form["career_interests"],
-    "Job/Higher Studies?": request.form["future_plans"],
-    "Type of company want to settle in?": request.form["company_pref"],
-    "Management or techincal": request.form["management_choice"],
-    "Salary/work": request.form["work_salary"],
-    "hard/smart worker": request.form["hard_smart"],
-    "worked in teams ever?": request.form["worked in teams"], #
-    "Introvert": request.form["intovert_not"],
+    "Acedamic percentage in Operating Systems": int(request.json["os_marks"]),
+    "percentage in Algorithms": int(request.json["aoa_marks"]),
+    "Percentage in Programming Concepts": int(request.json["pc_marks"]), #
+    "Percentage in Software Engineering": int(request.json["se_marks"]),
+    "Percentage in Computer Networks": int(request.json["cn_marks"]),
+    "Percentage in Electronics Subjects": int(request.json["es_marks"]),
+    "Percentage in Computer Architecture": int(request.json["coa_marks"]),
+    "Percentage in Mathematics": int(request.json["math_marks"]),
+    "percentage in Communication skills": int(request.json["comm_marks"]),
+    "hours working per day": request.json["work_hours"],
+    "logical quotient rating": request.json["logic"],
+    "hackathons": request.json["hackathons"],
+    "coding skills rating": request.json["coding_skills"], #
+    "public speaking points": request.json["communication_skills"],
+    "can work long time before system?": request.json["long_hours"],
+    "self-learning capability?": request.json["self_learner"],
+    "Extra-courses did": request.json["extra_curricular"],
+    "certifications": request.json["certificates"].lower().split(","),
+    "workshops": request.json["workshops"].lower().split(","),
+    "reading and writing skills": request.json["read_write"],
+    "memory capability score": request.json["memory"],
+    "Interested subjects": request.json["interests"].lower().split(","),
+    "Interested career area": request.json["career_interests"].lower().split(","),
+    "Job/Higher Studies?": request.json["future_plans"],
+    "Type of company want to settle in?": request.json["company_pref"].lower().split(","),
+    "Management or technical": request.json["management_choice"],
+    "Salary/work": request.json["work_salary"],
+    "hard/smart worker": request.json["hard_smart"],
+    "worked in teams ever?": request.json["team_before"], #
+    "Introvert": request.json["intovert_not"],
     }
 
     new_res = {}
@@ -102,8 +104,11 @@ def fetch_and_send_details():
         new_res[key.lower()] = res[key]
 
     model_output = model.process(new_res)
+    print(model_output)
 
-    return redirect("/form/career")
+    return "ok"
+    # return render_template("index.html")
+    # return redirect("/form/career")
 
 @app.route("/form/career")
 def career():
