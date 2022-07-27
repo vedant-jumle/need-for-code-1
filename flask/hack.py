@@ -51,7 +51,7 @@ def form_page():
 def career_paths():
     # jobs = df1['suggested job role'].unique().tolist()
     jobs = list(df.keys())
-    return render_template('career_paths.ejs' , jobs = jobs , images=[df[job]['job-img'] for job in jobs], length=len(jobs))
+    return render_template('career_paths.ejs' , jobs = jobs , images=[df[job]['job-img'] for job in jobs], length=len(jobs) , des = [df[job]['des'] for job in jobs])
 
 @app.route('/explore/<name>', methods=['GET'])
 def career_paths_detail(name):
