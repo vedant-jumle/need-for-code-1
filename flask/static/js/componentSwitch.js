@@ -216,6 +216,12 @@ function eight(){
         localStorage.setItem('management_choice','technical');
     }
 
+    if(document.getElementById('team_before_yes').checked){
+        localStorage.setItem('team_before','yes');
+    }else{
+        localStorage.setItem('team_before','no');
+    }
+
     if(document.getElementById('work_sal1').checked){
         localStorage.setItem('work_salary','salary');
     }else{
