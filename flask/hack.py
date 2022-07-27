@@ -76,7 +76,7 @@ def fetch_and_send_details():
     "hours working per day": request.form["work_hours"],
     "logical quotient rating": request.form["logic"],
     "hackathons": request.form["hackathons"],
-    "coding skill rating": request.form["coding skill rating"], #
+    "coding skill rating": request.form["coding_skills"], #
     "public speaking points": request.form["communication_skills"],
     "can work long time before system?": request.form["long_hours"],
     "self-learning capability?": request.form["self_learner"],
