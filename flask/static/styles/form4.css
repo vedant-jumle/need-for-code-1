@@ -1,3 +1,7 @@
 #form4{
     display: none;
 }
+
+label{
+    font-size: 1.4rem;
+}
