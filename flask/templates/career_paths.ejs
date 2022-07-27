@@ -1,168 +1,156 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Highway - Free CSS Template</title>
-    <!-- 
+    <title>KOPPEE - Coffee Shop HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
 
-Highway Template
+    <!-- Favicon -->
+    <link href="../static/img/favicon.ico" rel="icon">
 
-https://templatemo.com/tm-520-highway
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
 
--->
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../static/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="../static/css/fontAwesome.css">
-    <link rel="stylesheet" href="../static/css/light-box.css">
-    <link rel="stylesheet" href="../static/css/templatemo-style.css">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
-    <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../static/css/style.min.css" rel="stylesheet">
 
-    <script src="../static/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 
 <body>
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0 nav-bar" style="height: 15vh; background-color:#dffdf2;">
+        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+            <a href="/" class="navbar-brand px-lg-4 m-0">
+                <h1 class="m-0 display-4 text-uppercase text-white"><img src="../static/assets/images/logo.svg" style="width: 1.5em;"></h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto p-4">
+                    <a href="/" class="nav-item nav-link active">Home</a>
+                    <a href="#exp" class="nav-item nav-link">Opportunities</a>
+                    <a href="/og_form" class="nav-item nav-link">Test</a>
+                    
 
-    <nav>
-        <div class="logo">
-            <a href="index.html">High<em>way</em></a>
-        </div>
-        <div class="menu-icon">
-            <span></span>
-        </div>
-    </nav>
-
-
-
-
-    <div class="full-screen-portfolio" id="portfolio">
-        <div class="container-fluid">
-            {% for i in range(length): %}
-            <div class="col-md-4 col-sm-6">
-                <div class="portfolio-item">
-                    <a href="/explore/{{jobs[i]}}">
-                        <div class="thumb">
-                            <div class="hover-effect">
-                                <div class="hover-content">
-                                    <h1>{{jobs[i]}}</h1>
-                                </div>
-                            </div>
-                            <div class="image">
-                                <img src="{{images[i]}}" style="width:30vw;height:30vh">
-                            </div>
-                        </div>
-                    </a>
                 </div>
             </div>
-            {% endfor %}
-        </div>
+        </nav>
     </div>
+    <!-- Navbar End -->
 
+   
 
-    <footer>
-        <div class="container-fluid">
-            <div class="col-md-12">
-                shutup
-            </div>
-        </div>
-    </footer>
-
-
-    <!-- Modal button -->
-    <div class="popup-icon">
-        <button id="modBtn" class="modal-btn"><img src="../static/img/contact-icon.png" alt=""></button>
-    </div>
-
-    <!-- Modal -->
-    <div id="modal" class="modal">
-        <!-- Modal Content -->
-        <div class="modal-content">
-            <!-- Modal Header -->
-            <div class="modal-header">
-                <h3 class="header-title">Say hello to <em>Highway</em></h3>
-                <div class="close-btn"><img src="../static/img/close_contact.png" alt=""></div>
-            </div>
-            <!-- Modal Body -->
-            <div class="modal-body">
-                <div class="col-md-6 col-md-offset-3">
-                    <form id="contact" action="" method="post">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <fieldset>
-                                    <input name="name" type="text" class="form-control" id="name"
-                                        placeholder="Your name..." required="">
-                                </fieldset>
-                            </div>
-                            <div class="col-md-12">
-                                <fieldset>
-                                    <input name="email" type="email" class="form-control" id="email"
-                                        placeholder="Your email..." required="">
-                                </fieldset>
-                            </div>
-                            <div class="col-md-12">
-                                <fieldset>
-                                    <textarea name="message" rows="6" class="form-control" id="message"
-                                        placeholder="Your message..." required=""></textarea>
-                                </fieldset>
-                            </div>
-                            <div class="col-md-12">
-                                <fieldset>
-                                    <button type="submit" id="form-submit" class="btn">Send Message Now</button>
-                                </fieldset>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <section class="overlay-menu">
+  
+    <!-- Service Start -->
+    <div class="container-fluid pt-5" ;">
         <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">EXPLORE</h4>
+                <h1 class="display-4">YOUR CAREER</h1>
+            </div>
+
             <div class="row">
-                <div class="main-menu">
-                    <ul>
-                        <li>
-                            <a href="index.html">Home - Full-width</a>
-                        </li>
-                        <li>
-                            <a href="masonry.html">Home - Masonry</a>
-                        </li>
-                        <li>
-                            <a href="grid.html">Home - Small-width</a>
-                        </li>
-                        <li>
-                            <a href="about.html">About Us</a>
-                        </li>
-                        <li>
-                            <a href="blog.html">Blog Entries</a>
-                        </li>
-                        <li>
-                            <a href="single-post.html">Single Post</a>
-                        </li>
-                    </ul>
-                    <p>We create awesome templates for you.</p>
+                {% for i in range(length): %}
+                <div class="col-lg-6 mb-5" onclick="window.location.href='/explore/{{jobs[i]}}'">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="{{images[i]}}" alt="" style="width: 10em; height: auto;">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-truck service-icon"></i>{{jobs[i]}}</h4>
+
+                        </div>
+                    </div>
+                
                 </div>
+                {% endfor %}
+                <!-- <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="../static/img/service-2.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-coffee service-icon"></i>Fresh Coffee Beans</h4>
+                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
+                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="../static/img/service-3.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-award service-icon"></i>Best Quality Coffee</h4>
+                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
+                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="../static/img/service-4.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-table service-icon"></i>Online Table Booking</h4>
+                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
+                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                        </div>
+                    </div>
+                </div> -->
             </div>
         </div>
-    </section>
+    </div>
+    <!-- Service End -->
+    
+    <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
+        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
+            
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Follow Us</h4>
+                <h7 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Viren Keswani</h4><br>
+                <h7 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Hriday Keswani</h7><br>
+                <h7 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Vedant Jumle</h7>
+                
+            </div>
+            
+       
+    </div>
+    
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" defer></script>
-    <script>window.jQuery || document.write('<script src="../static/js/vendor/jquery-1.11.2.min.js" defer><\/script>')</script>
 
-    <script src="../static/js/vendor/bootstrap.min.js" defer></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/lib/easing/easing.min.js"></script>
+    <script src="../static/lib/waypoints/waypoints.min.js"></script>
+    <script src="../static/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../static/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../static/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../static/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <script src="../static/js/plugins.js" defer></script>
-    <script src="../static/js/main.js" defer></script>
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
 
-
+    <!-- Template Javascript -->
+    <script src="../static/js/main.js"></script>
 </body>
 
 </html>

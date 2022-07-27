@@ -185,15 +185,17 @@ function switchSeventoEight() {
     let form7 = document.getElementById('form7');
     let form8 = document.getElementById('form8');
 
-    // let company_pref_arr = [];
-    // for (let i = 1; i < 9; i++) {
-    //     let ids = "company_choice" + i;
-    //     if (document.getElementById(ids).checked) {
-    //         company_pref_arr.push(document.getElementById(ids).value);
-    //     }
-    // }
+    let company_pref_arr = [];
+    for (let i = 1; i < 9; i++) {
+        let ids = "company_choice" + i;
+        if (document.getElementById(ids).checked) {
+            company_pref_arr.push(document.getElementById(ids).value);
+        }
+    }
 
-    // localStorage.setItem('company_pref', company_pref_arr);
+    console.log(company_pref_arr)
+
+    localStorage.setItem('company_pref', company_pref_arr);
 
     form8.style.display = 'inline';  //show form 8
     form7.style.display = 'none';   //hide form 7
@@ -252,6 +254,5 @@ function submit_form(){
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(data)
-    })
-    .then(response => response.json())
+    }).then(res => document.location.href = "/form/career")
 }
