@@ -183,12 +183,14 @@ function switchSevenToEight() {
     let form8 = document.getElementById('form8');
 
     let company_pref_arr = [];
-    for (let i = 0; i < 9; i++) {
+    for (let i = 1; i < 9; i++) {
         let ids = "company_choice" + i;
         if (document.getElementById(ids).checked) {
             company_pref_arr.push(document.getElementById(ids).value);
         }
     }
+
+    console.log(company_pref_arr)
 
     localStorage.setItem('company_pref', company_pref_arr);
 
@@ -249,5 +251,5 @@ function submit_form(){
         },
         body: JSON.stringify(data)
     })
-    .then(response => response.json())
+    .then(response => response.json()).then(data => console.log(data))
 }

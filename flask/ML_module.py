@@ -135,6 +135,8 @@ class CareerAdvisor:
                 labels.append(uniques.index(row[col].lower()))
             elif col in exclusion:
                 labels.append(row[col])
+            else:
+                print(col)
 
         return labels
 
@@ -142,7 +144,7 @@ class CareerAdvisor:
     def process(self, x, top=5):
         x = self.permutate(x)
         x = self.preprocess(x)
-        x = np.array(x)
+        x = np.array(x, dtype=np.float32)
         outputs = self.predict(x)
 
         list_of_careers = []

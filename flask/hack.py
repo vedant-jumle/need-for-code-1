@@ -1,5 +1,7 @@
 from genericpath import exists
-from flask import Flask, redirect, render_template, request , Response
+from datasets import tqdm
+from django.shortcuts import render
+from flask import Flask, jsonify, redirect, render_template, request , Response
 import json
 from matplotlib import image
 import pandas as pd
@@ -63,10 +65,6 @@ def career_paths_detail(name):
 def fetch_and_send_details():
     global model_output
 
-    print(request.json)
-
-    # return "ok"
-
     res={
     "Acedamic percentage in Operating Systems": int(request.json["os_marks"]),
     "percentage in Algorithms": int(request.json["aoa_marks"]),
@@ -80,7 +78,7 @@ def fetch_and_send_details():
     "hours working per day": request.json["work_hours"],
     "logical quotient rating": request.json["logic"],
     "hackathons": request.json["hackathons"],
-    "coding skill rating": request.json["coding_skills"], #
+    "coding skills rating": request.json["coding_skills"], #
     "public speaking points": request.json["communication_skills"],
     "can work long time before system?": request.json["long_hours"],
     "self-learning capability?": request.json["self_learner"],
@@ -93,7 +91,7 @@ def fetch_and_send_details():
     "Interested career area": request.json["career_interests"].lower().split(","),
     "Job/Higher Studies?": request.json["future_plans"],
     "Type of company want to settle in?": request.json["company_pref"].lower().split(","),
-    "Management or techincal": request.json["management_choice"],
+    "Management or technical": request.json["management_choice"],
     "Salary/work": request.json["work_salary"],
     "hard/smart worker": request.json["hard_smart"],
     "worked in teams ever?": request.json["team_before"], #
@@ -106,8 +104,8 @@ def fetch_and_send_details():
         new_res[key.lower()] = res[key]
 
     model_output = model.process(new_res)
-
-    return redirect("/form/career")
+    print(model_output)
+    return render_template("final_career.ejs", outputs=model_output)
 
 @app.route("/form/career")
 def career():
