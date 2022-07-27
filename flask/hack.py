@@ -1,7 +1,12 @@
 from genericpath import exists
 from flask import Flask, redirect, render_template, request , Response
 import json
+from matplotlib import image
 import pandas as pd
+from sklearn import datasets
+import jinja2
+env = jinja2.Environment()
+env.globals.update(zip=zip)
 import ML_module
 
 app = Flask(__name__)
@@ -10,6 +15,7 @@ req_url = {}
 df = pd.read_json('./content/jobless.json')
 df1= pd.read_csv('./dataset/career_pred.csv')
 
+print(len(df.keys()), len(df1["suggested job role"].unique()))
 print("loading model")
 model = ML_module.CareerAdvisor("./models/main.h5")
 print("Model loaded")
@@ -28,6 +34,30 @@ def landing_page():
 @app.route('/og_form')
 def form_page():
     return render_template('form.ejs')
+
+# @app.route('/testlist', methods=['GET'])
+# def testlist():
+#     return render_template('testlist.html', data=df.to_json())
+
+# @app.route('/testlist', methods=['POST'])
+# def testlist1():
+#     print(request.form)
+#     ret={"v1": [request.form['v1']]}
+#     print('\n\n',ret,'\n\n')
+#     return Response(json.dumps(ret),
+#     mimetype='application/json')
+
+@app.route('/explore', methods=['GET'])
+def career_paths():
+    # jobs = df1['suggested job role'].unique().tolist()
+    jobs = list(df.keys())
+    return render_template('career_paths.ejs' , jobs = jobs , images=[df[job]['job-img'] for job in jobs], length=len(jobs))
+
+@app.route('/explore/<name>', methods=['GET'])
+def career_paths_detail(name):
+     return render_template('job.html', des=df[name].des,name=name, skills= df[name].skills, crs = df[name]["rec courses"] , sal=df[name]["starting salary"], img=df[name]["job-img"])
+
+
 
 @app.route('/form', methods=['POST'])
 def fetch_and_send_details():
