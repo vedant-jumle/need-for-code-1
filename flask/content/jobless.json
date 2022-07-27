@@ -271,7 +271,7 @@
             "https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst"
         ],
         "starting salary": "₹6.6 Lakhs per annum",
-         "job-img":"../images/ssa.png"
+         "job-img":"https://previews.123rf.com/images/vectorlab/vectorlab1707/vectorlab170700085/81670332-isometric-system-administrator-server-room-data-storage-network-security-vector-flat-3d-illustration.jpg"
 
     },
     "Data Architect":{
@@ -512,5 +512,98 @@
         "starting salary": "₹6.14 Lakhs per annum",
          "job-img":"https://st2.depositphotos.com/1001599/45198/v/380/depositphotos_451980380-stock-illustration-software-testing-abstract-concept-vector.jpg?forcejpeg=true"
 
+    },
+    "Software Systems Engineer":{
+        "des":"Software Systems Engineering is an arm of systems engineering that addresses the development of complex software-intensive systems. It involves analyzing, designing, developing, testing, and maintaining a broad range of software based on specific user needs, while taking into consideration the quality, time, and budget required. The software systems engineering discipline continues to evolve and requires continuous development of new methodologies to keep in touch with the current development trends, all while maintaining user-friendliness. ",
+        "skills":[
+            "Communication.",
+            "Analytical skills.",
+            "Organizational skills.",
+            "Detail-oriented thinking.",
+            "Ability to see the “big picture",
+            "Troubleshooting.",
+            "Time management."
+
+        ],
+        "rec courses":[
+            "https://www.classcentral.com/course/youtube-software-testing-47882/classroom",
+            "https://www.classcentral.com/course/youtube-mit-6-824-distributed-systems-spring-2020-53357/classroom"
+        ],
+        "starting salary":"₹3.5 Lakhs per annum",
+        "job-img":"https://static.thenounproject.com/png/741403-200.png"
+    },
+    "Business Intelligence Analyst":{
+        "des":"A business intelligence analyst reviews data to produce finance and market intelligence reports. These reports are used to highlight patterns and trends in a given market that may influence a company's operations and future goals.",
+        "skills":[
+            "Data Analysis.",
+            "Problem-solving.",
+            "Specific industry knowledge.",
+            "Communication skills.",
+            "Data visualization and interpretation.",
+            "Advanced vision and attention to detail.",
+            "Statistical analysis.",
+            "Technical notion."
+        ],
+        "rec courses":[
+            "https://www.udemy.com/course/the-business-intelligence-analyst-course-2018/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-59T2wSlGEDVOlA_bwLK_Dw&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads",
+            "https://www.udemy.com/course/business-analysis-business-intelligence-analyst-course-2022/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-UqBrv0apcfvHhrwwRVY.AA&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads"
+        ],
+        "starting salary":"₹7.00 Lakhs per annum",
+        "job-img":"https://previews.123rf.com/images/rastudio/rastudio1808/rastudio180800056/112275729-business-analyst-working-on-laptop-with-business-intelligence-business-data-analysis-data-management.jpg"
+    },
+    "CRM Technical Developer":{
+        "des":"A CRM developer is a software developer who specializes in implementing enhancements for a CRM system based on any business’ requirements. Any business’ CRM requirements are not always met by the CRM systems that exist in the market. Hence they hire CRM developers to design and create additional modules, custom plugins, or a suite of software applications that can integrate with the existing CRM systems.A CRM developer can also work independently by identifying pain points faced by businesses in the existing CRM systems and develop solutions to solve those pain points.",
+        "skills":[
+            "Written and Verbal Communications.",
+            "Technical Writing.",
+            "Problem Solving.",
+            "Attention to Detail.",
+            "Business Analysis.",
+            "Technical Project Management.",
+            "Customer Service."
+        ],
+        "rec courses":[
+            "https://www.udemy.com/course/microsoft-dynamics-365-online-training-introduction-course/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-RdEBevT98tyWWio5Npuw0g&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads",
+            "https://www.coursera.org/learn/sales-and-crm-overview?irclickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3G9VDTVkBzQ0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=b2c"
+        ],
+        "starting salary":"₹10.06 Lakhs per annum",
+        "job-img":"https://cdni.iconscout.com/illustration/premium/thumb/crm-system-4487382-3722743.png"
+    },
+    "Mobile Applications Developer":{
+        "des":"Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources. Hence, the mobile development process involves creating installable software bundles (code, binaries, assets, etc.) , implementing backend services such as data access with an API, and testing the application on target devices",
+        "skills":[
+            "Programming language skills",
+            "Computer proficiency",
+            "Back-end computing",
+            "User interface (UI) design.",
+            "Cross-platform development skills.",
+            "Cybersecurity skills.",
+            "Product management skills.",
+            "Internet of things (IoT) skills."
+        ],
+        "rec courses":[
+            "https://www.udemy.com/course/the-complete-java-9-masterclass-beginner-to-expert/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-CiS2tVs3bTXycIn6nbREEA&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads",
+            "https://www.udemy.com/course/aws-certified-solutions-architect-associate-hands-on/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-2Jjc.MpP4p13uCSvPLBRWw&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads"
+        ],
+        "starting salary":"₹5.60Lakhs per annum",
+        "job-img":"https://icon-library.com/images/mobile-app-development-icon/mobile-app-development-icon-6.jpg"
+    },
+    "UX Designer":{
+        "des": "User experience (UX) design is the process design teams use to create products that provide meaningful and relevant experiences to users. This involves the design of the entire process of acquiring and integrating the product, including aspects of branding, design, usability and function.",
+        "skills": [
+            "Prototyping, wireframing, user flows, mockups",
+            "Visual design and design software",
+            "User research and usability testing",
+            "Agile",
+            "Information architecture ",
+            "Application development"
+
+        ],
+        "rec courses": [
+            "https://www.udemy.com/course/user-experience-design-the-accelerated-ux-course/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-pqZKUKqZDJK1xhXcEKJU4A&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads",
+            "https://www.skillshare.com/site/join?clickid=SZ0Sl6XIqxyITzOVFAyeNw9NUkD3n90TTVkBzQ0&irgwc=1&utm_content=4650&utm_term=Class+Central&utm_campaign=259799&affiliateRef=6595003&utm_medium=affiliate-referral&utm_source=IR&t=Sound-Design-in-UX-An-Introduction-for-Designers&sku=1981053087"
+        ],
+        "starting salary": "₹5.5 Lakhs per annum",
+         "job-img":"https://cdn1.iconfinder.com/data/icons/digital-marketing-76/64/UX-UI-Design-interface-512.png"
     }
 }

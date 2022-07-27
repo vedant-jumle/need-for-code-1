@@ -108,7 +108,7 @@ def fetch_and_send_details():
 def career():
     global model_output
 
-    return render_template("final_career.ejs", outputs=model_output, img = [df[job]['job-img'] for job in model_output], len = len(model_output))
+    return render_template("final_career.ejs", output=model_output, img = [df[job]['job-img'] for job in model_output], length = len(model_output))
 
 if __name__=='__main__':
     app.run(host='0.0.0.0' , port=6969, debug=True)
