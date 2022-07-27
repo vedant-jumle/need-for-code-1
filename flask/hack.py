@@ -105,7 +105,10 @@ def fetch_and_send_details():
 
     model_output = model.process(new_res)
     print(model_output)
-    return render_template("final_career.ejs", outputs=model_output)
+
+    return "ok"
+    # return render_template("index.html")
+    # return redirect("/form/career")
 
 @app.route("/form/career")
 def career():
